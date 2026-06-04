@@ -58,15 +58,15 @@
       "label": "Víctimas mujeres 2024",
       "value": 2481,
       "formatted": "2.481",
-      "comparison": "2.745 varones • 47,5% del total"
+      "comparison": "2.745 varones · 2.481 mujeres de 5.384 víctimas"
     },
     {
       "id": "estafas-virt",
       "label": "Estafas virtuales 2024",
-      "value": 720,
-      "formatted": "720",
+      "value": 337,
+      "formatted": "337",
       "status": "warning",
-      "comparison": "2023: 629 · +14,5% interanual"
+      "comparison": "2023: 36 · +836,1% interanual"
     }
   ],
   "charts": [
@@ -2326,8 +2326,8 @@
         "tentRobos": 524,
         "patrimoniales": 9273,
         "pctPatrimoniales": 49.86020002150769,
-        "estafasVirt2023": 629,
-        "estafasVirt2024": 720,
+        "estafasVirt2023": 36,
+        "estafasVirt2024": 337,
         "lesionesViales2024": 1436,
         "amenazas2024": 1852,
         "lesionesDolosas2024": 2296,

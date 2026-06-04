@@ -42,7 +42,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 function TopBar() {
   const location = useLocation();
-  const { toggleSidebar } = useStore();
+  const { toggleSidebar, sidebarOpen } = useStore();
   const isHome = location.pathname === '/';
 
   return (
@@ -66,6 +66,8 @@ function TopBar() {
             <button
               onClick={toggleSidebar}
               aria-label="Menú de navegación"
+              aria-expanded={sidebarOpen}
+              aria-controls="mobile-nav"
               className="p-2 rounded-lg hover:opacity-80 transition-opacity lg:hidden"
               style={{ color: 'var(--text-secondary)' }}
             >
@@ -124,6 +126,15 @@ function Sidebar() {
   const poblacion = getPoblacionReports();
   const sectoriales = getSectorialReports();
 
+  // Cerrar con Escape (accesibilidad por teclado).
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSidebarOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [setSidebarOpen]);
+
   return (
     <>
       {/* Backdrop */}
@@ -141,6 +152,8 @@ function Sidebar() {
       />
       {/* Panel */}
       <aside
+        id="mobile-nav"
+        aria-label="Navegación de informes"
         className="slide-in-left"
         style={{
           position: 'fixed',

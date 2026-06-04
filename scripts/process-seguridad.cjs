@@ -234,8 +234,11 @@ function processSNIC() {
   const pctPatrimoniales = (patrimoniales / hechos2024) * 100;
 
   // Estafas virtuales evolución (delito incorporado al SNIC en 2023)
-  const estafasVirt2023 = findDelito(2023, /Estafas.*virtual/i);
-  const estafasVirt2024 = findDelito(last, /Estafas.*virtual/i);
+  // Ojo: el SNIC tiene DOS categorías que contienen "virtual": las estafas
+  // "asistidas virtualmente" (las que queremos) y "(no incluye virtuales) y
+  // usura". Matcheamos solo las virtuales reales con /virtualmente/i.
+  const estafasVirt2023 = findDelito(2023, /virtualmente/i);
+  const estafasVirt2024 = findDelito(last, /virtualmente/i);
   const lesionesViales2024 = findDelito(last, /Lesiones culposas en Accidentes Viales/i);
   const amenazas2024 = findDelito(last, /^Amenazas/i);
   const lesionesDolosas2024 = findDelito(last, /^Lesiones dolosas/i);
@@ -306,7 +309,7 @@ function processSNIC() {
         label: `Víctimas mujeres ${last}`,
         value: victimasFem2024,
         formatted: fmtInt(victimasFem2024),
-        comparison: `${fmtInt(victimasMasc2024)} varones • ${fmtPct(victimasFem2024 / (victimasFem2024 + victimasMasc2024) * 100)} del total`,
+        comparison: `${fmtInt(victimasMasc2024)} varones · ${fmtInt(victimasFem2024)} mujeres de ${fmtInt(quilmesByYear[last].victimas)} víctimas`,
       },
       {
         id: 'estafas-virt',

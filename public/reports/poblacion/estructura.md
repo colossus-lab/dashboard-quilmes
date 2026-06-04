@@ -70,7 +70,7 @@ Dos patrones:
 
 ## 4. Fecundidad: la trayectoria reproductiva por cohorte
 
-El cuadro 2.2.102 publica la cantidad de hijos por mujer de 14 a 49 años en Quilmes. El **promedio agregado es de 1,0 hijo por mujer**, pero ese número es engañoso por sí solo: incluye a las cohortes jóvenes que todavía no completaron su trayectoria reproductiva. La lectura rigurosa se hace **por cohorte completada**.
+El cuadro 2.2.102 publica la cantidad de hijos por mujer de 14 a 49 años en Quilmes. El **promedio agregado es de 1,4 hijos por mujer**, pero ese número es engañoso por sí solo: incluye a las cohortes jóvenes que todavía no completaron su trayectoria reproductiva. La lectura rigurosa se hace **por cohorte completada**.
 
 ### Fecundidad por cohorte
 

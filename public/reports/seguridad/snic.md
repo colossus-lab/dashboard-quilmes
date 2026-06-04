@@ -14,7 +14,7 @@
 |---|---:|
 | **Hechos delictivos registrados** | **18.598** |
 | **Tasa total de hechos** (suma de tasas individuales por 100K) | **2.683,1 / 100K** |
-| Víctimas registradas | 5.226 |
+| Víctimas registradas | 5.384 |
 | Variación interanual (2024 vs 2023) | **−8,5 %** |
 | Variación quinquenal (2024 vs 2019) | **+19,3 %** |
 | Variación 25 años en tasa (2024 vs 2000) | **+10,7 %** |
@@ -66,11 +66,11 @@ Las **estafas y defraudaciones asistidas virtualmente** son una categoría de in
 
 | Año | Hechos en Quilmes |
 |---:|---:|
-| 2023 | 629 |
-| **2024** | **720** |
-| Variación interanual | **+14,5 %** |
+| 2023 | 36 |
+| **2024** | **337** |
+| Variación interanual | **+836 %** |
 
-En 2024 se registraron **720 estafas virtuales en Quilmes, 14,5 % más que en 2023**. Por su incorporación reciente, no existe una serie larga que permita comparaciones de décadas, pero el crecimiento interanual marca la dirección del segmento.
+En 2024 se registraron **337 estafas virtuales en Quilmes, casi diez veces más que las 36 de 2023**. Es una categoría de incorporación muy reciente al nomenclador: la serie es todavía corta y los valores absolutos chicos, pero el salto interanual marca la irrupción del segmento.
 
 ---
 
@@ -96,14 +96,15 @@ La cantidad de homicidios dolosos en Quilmes muestra una tendencia descendente d
 
 ## 5. Víctimas registradas
 
-En 2024 el SNIC registró **5.226 víctimas en Quilmes**:
+En 2024 el SNIC registró **5.384 víctimas en Quilmes**:
 
 | Sexo | Víctimas | % |
 |---|---:|---:|
-| Varones | 2.745 | 52,5 % |
-| Mujeres | 2.481 | **47,5 %** |
+| Varones | 2.745 | 51,0 % |
+| Mujeres | 2.481 | **46,1 %** |
+| Sin determinar | 158 | 2,9 % |
 
-Las mujeres son el **47,5 % del total de víctimas**. La serie de víctimas también muestra el escalón ascendente reciente: de 3.005 en 2019 a un máximo de 5.442 en 2021, con 5.384 en 2024, cerca de los valores más altos del período.
+Las mujeres representan el **46,1 % del total de víctimas** y los varones el 51,0 % (el resto queda sin sexo registrado). La serie de víctimas muestra el escalón ascendente reciente: de 3.005 en 2019 a un máximo de 5.442 en 2021, con 5.384 en 2024, cerca de los valores más altos del período.
 
 ---
 
@@ -133,13 +134,13 @@ En la **tasa de homicidios** —relativamente robusta a la sub-denuncia, porque 
 
 2. **El registro de 2024 baja respecto del máximo de 2023**: los 18.598 hechos están 8,5 % por debajo de los 20.329 de 2023, el pico de toda la serie. Aun así, el nivel sigue 19,3 % por encima del de 2019.
 
-3. **Las estafas virtuales crecen**: 720 hechos en 2024, 14,5 % más que en 2023. Es una categoría de incorporación reciente al nomenclador, todavía chica en términos absolutos.
+3. **Las estafas virtuales irrumpen**: 337 hechos en 2024 contra 36 en 2023. Es una categoría de incorporación reciente al nomenclador, todavía chica en términos absolutos pero de crecimiento abrupto.
 
 4. **En volumen absoluto Quilmes es de los más altos del GBA, pero en tasa queda por debajo del promedio**: 2° en hechos absolutos y 2° en robos, pero 16° de 24 en tasa total por 100K. El contraste se explica por el gran tamaño poblacional del partido.
 
 5. **La tasa de homicidios dolosos (4,90 / 100K) ubica a Quilmes 10° de 24**, levemente por encima del promedio simple del conurbano (4,47 / 100K). En cantidad absoluta son 34 homicidios, cinco menos que en 2023, en línea con la tendencia descendente de largo plazo de este indicador.
 
-6. **Las mujeres son el 47,5 % de las víctimas registradas en Quilmes** en 2024 (2.481 de 5.226).
+6. **Las mujeres son el 46,1 % de las víctimas registradas en Quilmes** en 2024 (2.481 de 5.384).
 
 ---
 

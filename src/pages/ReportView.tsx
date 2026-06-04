@@ -68,7 +68,7 @@ function ReportContent({ reportEntry }: { reportEntry: ReportEntry }) {
                 className="report-hero-title"
                 style={{
                   fontFamily: 'var(--font-heading)',
-                  background: `linear-gradient(135deg, ${reportEntry.color}, var(--accent-cyan))`,
+                  backgroundImage: `linear-gradient(135deg, ${reportEntry.color}, var(--accent-cyan))`,
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',

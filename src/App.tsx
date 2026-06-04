@@ -1,11 +1,16 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { Landing } from './pages/Landing';
-import { ReportView } from './pages/ReportView';
 import { IntroHero } from './components/ui/IntroHero';
 import { useFirstVisit } from './hooks/useFirstVisit';
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+
+// ReportView arrastra Nivo + react-markdown (la parte pesada del bundle).
+// Lo cargamos lazy para que la Landing ("/") no descargue nada de eso.
+const ReportView = lazy(() =>
+  import('./pages/ReportView').then(m => ({ default: m.ReportView })),
+);
 
 // Solo mostramos el intro en la home. En rutas profundas (alguien
 // compartió un link a un informe) se muestra directo el contenido.
@@ -84,10 +89,18 @@ export default function App() {
       <BrowserRouter>
         <FirstVisitIntro />
         <Layout>
-          <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/*" element={<ReportView />} />
-          </Routes>
+          <Suspense
+            fallback={
+              <div className="text-center py-20" style={{ color: 'var(--text-tertiary)' }}>
+                Cargando…
+              </div>
+            }
+          >
+            <Routes>
+              <Route path="/" element={<Landing />} />
+              <Route path="/*" element={<ReportView />} />
+            </Routes>
+          </Suspense>
         </Layout>
       </BrowserRouter>
       <Analytics />
