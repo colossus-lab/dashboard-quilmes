@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "id": "seguridad-muertes-viales",
+    "title": "Muertes Viales — Quilmes (SAT 2017-2023)",
+    "category": "Seguridad",
+    "subcategory": "Muertes Viales",
+    "source": "Sistema de Alerta Temprana de Muertes Viales — Ministerio de Seguridad de la Nación",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "total-victimas",
+      "label": "Víctimas totales (2017-2023)",
+      "value": 234,
+      "formatted": "234",
+      "status": "critical",
+      "comparison": "7 años de cobertura"
+    },
+    {
+      "id": "promedio",
+      "label": "Promedio anual",
+      "value": 33.42857142857143,
+      "formatted": "33,4",
+      "unit": "víctimas/año"
+    },
+    {
+      "id": "tasa",
+      "label": "Tasa anual por 100.000 hab.",
+      "value": 5.277714938887895,
+      "formatted": "5,28",
+      "unit": "víctimas/100K/año",
+      "comparison": "Acumulado 7 años: 36,9 / 100K"
+    },
+    {
+      "id": "motos",
+      "label": "Víctimas en moto",
+      "value": 77,
+      "formatted": "77",
+      "status": "warning",
+      "comparison": "32,9% del total"
+    },
+    {
+      "id": "peatones",
+      "label": "Víctimas peatonas",
+      "value": 65,
+      "formatted": "65",
+      "comparison": "27,8% del total"
+    },
+    {
+      "id": "mes-pico",
+      "label": "Mes con más víctimas",
+      "value": 31,
+      "formatted": "Sep",
+      "comparison": "31 víctimas en Sep (acumulado 7 años)"
+    },
+    {
+      "id": "sexo",
+      "label": "Distribución por sexo",
+      "value": 163,
+      "formatted": "69,7% V",
+      "comparison": "163 varones · 51 mujeres"
+    },
+    {
+      "id": "pos-gba",
+      "label": "Posición GBA — víctimas absolutas",
+      "value": 2,
+      "formatted": "2° de 24",
+      "comparison": "Mayor cantidad de víctimas = posiciones más altas · prom. GBA: 114"
+    }
+  ],
+  "charts": [
+    {
+      "id": "serie-anual",
+      "type": "line",
+      "title": "Víctimas fatales por año — Quilmes",
+      "sectionId": "evolucion",
+      "data": [
+        {
+          "id": "Víctimas",
+          "data": [
+            {
+              "x": "2017",
+              "y": 40
+            },
+            {
+              "x": "2018",
+              "y": 32
+            },
+            {
+              "x": "2019",
+              "y": 29
+            },
+            {
+              "x": "2020",
+              "y": 28
+            },
+            {
+              "x": "2021",
+              "y": 31
+            },
+            {
+              "x": "2022",
+              "y": 42
+            },
+            {
+              "x": "2023",
+              "y": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehiculos",
+      "type": "pie",
+      "title": "Víctimas por tipo de vehículo",
+      "sectionId": "vehiculos",
+      "data": [
+        {
+          "id": "Motocicleta",
+          "label": "Motocicleta",
+          "value": 74
+        },
+        {
+          "id": "No corresponde",
+          "label": "No corresponde",
+          "value": 48
+        },
+        {
+          "id": "Automóvil",
+          "label": "Automóvil",
+          "value": 45
+        },
+        {
+          "id": "Sin determinar",
+          "label": "Sin determinar",
+          "value": 36
+        },
+        {
+          "id": "Peatón",
+          "label": "Peatón",
+          "value": 16
+        },
+        {
+          "id": "Tren",
+          "label": "Tren",
+          "value": 5
+        },
+        {
+          "id": "Bicicleta",
+          "label": "Bicicleta",
+          "value": 3
+        },
+        {
+          "id": "Ciclomotor",
+          "label": "Ciclomotor",
+          "value": 3
+        },
+        {
+          "id": "Camión",
+          "label": "Camión",
+          "value": 3
+        },
+        {
+          "id": "Colectivo",
+          "label": "Colectivo",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "edades",
+      "type": "bar",
+      "title": "Víctimas por grupo etario",
+      "sectionId": "perfil",
+      "data": [
+        {
+          "edad": "5-9",
+          "value": 2
+        },
+        {
+          "edad": "25-29",
+          "value": 24
+        },
+        {
+          "edad": "30-34",
+          "value": 22
+        },
+        {
+          "edad": "35-39",
+          "value": 13
+        },
+        {
+          "edad": "40-44",
+          "value": 12
+        },
+        {
+          "edad": "45-49",
+          "value": 11
+        },
+        {
+          "edad": "50-54",
+          "value": 11
+        },
+        {
+          "edad": "55-59",
+          "value": 5
+        },
+        {
+          "edad": "60-64",
+          "value": 6
+        },
+        {
+          "edad": "65-69",
+          "value": 9
+        },
+        {
+          "edad": "70-74",
+          "value": 4
+        },
+        {
+          "edad": "75-79",
+          "value": 9
+        },
+        {
+          "edad": "Sin determinar",
+          "value": 54
+        },
+        {
+          "edad": "20-24",
+          "value": 29
+        },
+        {
+          "edad": "85-89",
+          "value": 2
+        },
+        {
+          "edad": "4 o menos",
+          "value": 3
+        },
+        {
+          "edad": "15-19",
+          "value": 16
+        },
+        {
+          "edad": "80-84",
+          "value": 1
+        },
+        {
+          "edad": "90 y más",
+          "value": 1
+        }
+      ],
+      "config": {
+        "xAxis": "edad"
+      }
+    },
+    {
+      "id": "modo",
+      "type": "pie",
+      "title": "Modo de producción del hecho",
+      "sectionId": "circunstancias",
+      "data": [
+        {
+          "id": "Colisión vehículo-vehículo",
+          "label": "Colisión vehículo-vehículo",
+          "value": 93
+        },
+        {
+          "id": "Colisión vehículo-persona",
+          "label": "Colisión vehículo-persona",
+          "value": 62
+        },
+        {
+          "id": "Sin determinar",
+          "label": "Sin determinar",
+          "value": 52
+        },
+        {
+          "id": "Vuelco-Despistes",
+          "label": "Vuelco-Despistes",
+          "value": 15
+        },
+        {
+          "id": "Colisión vehículo-objeto",
+          "label": "Colisión vehículo-objeto",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": "calles",
+      "type": "bar",
+      "title": "Top 15 calles/rutas con más víctimas — Quilmes",
+      "sectionId": "rutas",
+      "data": [
+        {
+          "calle": "AVE CALCHAQUI",
+          "value": 13
+        },
+        {
+          "calle": "TRIUNVIRATO",
+          "value": 10
+        },
+        {
+          "calle": "AU. LA PLATA - BUENOS AIRES",
+          "value": 8
+        },
+        {
+          "calle": "AVE LOS QUILMES",
+          "value": 7
+        },
+        {
+          "calle": "AVE CENTENARIO",
+          "value": 7
+        },
+        {
+          "calle": "AVE LA PLATA",
+          "value": 6
+        },
+        {
+          "calle": "AVE TOMAS FLORES",
+          "value": 6
+        },
+        {
+          "calle": "AVE SAN MARTIN",
+          "value": 6
+        },
+        {
+          "calle": "AVE MITRE",
+          "value": 5
+        },
+        {
+          "calle": "AVE GRAL MOSCONI",
+          "value": 4
+        },
+        {
+          "calle": "CAMINO GENERAL BELGRANO",
+          "value": 4
+        },
+        {
+          "calle": "12 DE OCTUBRE",
+          "value": 4
+        },
+        {
+          "calle": "URQUIZA",
+          "value": 4
+        },
+        {
+          "calle": "AUTP BUENOS AIRES LA PLATA",
+          "value": 3
+        },
+        {
+          "calle": "PRIMERA JUNTA",
+          "value": 3
+        }
+      ],
+      "config": {
+        "xAxis": "calle",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "estacionalidad",
+      "type": "bar",
+      "title": "Víctimas viales por mes (acumulado 2017-2023) — Quilmes",
+      "sectionId": "estacionalidad",
+      "data": [
+        {
+          "mes": "Ene",
+          "value": 15
+        },
+        {
+          "mes": "Feb",
+          "value": 15
+        },
+        {
+          "mes": "Mar",
+          "value": 19
+        },
+        {
+          "mes": "Abr",
+          "value": 13
+        },
+        {
+          "mes": "May",
+          "value": 11
+        },
+        {
+          "mes": "Jun",
+          "value": 6
+        },
+        {
+          "mes": "Jul",
+          "value": 14
+        },
+        {
+          "mes": "Ago",
+          "value": 10
+        },
+        {
+          "mes": "Sep",
+          "value": 31
+        },
+        {
+          "mes": "Oct",
+          "value": 22
+        },
+        {
+          "mes": "Nov",
+          "value": 25
+        },
+        {
+          "mes": "Dic",
+          "value": 21
+        }
+      ],
+      "config": {
+        "xAxis": "mes"
+      }
+    },
+    {
+      "id": "gba-total",
+      "type": "bar",
+      "title": "Víctimas fatales viales absolutas — 24 GBA (2017-2023)",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "La Matanza",
+          "value": 361
+        },
+        {
+          "partido": "Quilmes",
+          "value": 234
+        },
+        {
+          "partido": "Moreno",
+          "value": 162
+        },
+        {
+          "partido": "Berazategui",
+          "value": 149
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 142
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 134
+        },
+        {
+          "partido": "Tigre",
+          "value": 134
+        },
+        {
+          "partido": "Merlo",
+          "value": 131
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 115
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 115
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 114
+        },
+        {
+          "partido": "General San Martín",
+          "value": 102
+        },
+        {
+          "partido": "Morón",
+          "value": 94
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 92
+        },
+        {
+          "partido": "San Isidro",
+          "value": 91
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 87
+        },
+        {
+          "partido": "Lanús",
+          "value": 78
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 77
+        },
+        {
+          "partido": "Vicente López",
+          "value": 74
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 72
+        },
+        {
+          "partido": "San Miguel",
+          "value": 62
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 48
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 40
+        },
+        {
+          "partido": "San Fernando",
+          "value": 29
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-calles",
+      "title": "Calles más críticas — Quilmes",
+      "sectionId": "rutas",
+      "items": [
+        {
+          "name": "AVE CALCHAQUI",
+          "value": 13
+        },
+        {
+          "name": "TRIUNVIRATO",
+          "value": 10
+        },
+        {
+          "name": "AU. LA PLATA - BUENOS AIRES",
+          "value": 8
+        },
+        {
+          "name": "AVE LOS QUILMES",
+          "value": 7
+        },
+        {
+          "name": "AVE CENTENARIO",
+          "value": 7
+        },
+        {
+          "name": "AVE LA PLATA",
+          "value": 6
+        },
+        {
+          "name": "AVE TOMAS FLORES",
+          "value": 6
+        },
+        {
+          "name": "AVE SAN MARTIN",
+          "value": 6
+        },
+        {
+          "name": "AVE MITRE",
+          "value": 5
+        },
+        {
+          "name": "AVE GRAL MOSCONI",
+          "value": 4
+        },
+        {
+          "name": "CAMINO GENERAL BELGRANO",
+          "value": 4
+        },
+        {
+          "name": "12 DE OCTUBRE",
+          "value": 4
+        },
+        {
+          "name": "URQUIZA",
+          "value": 4
+        },
+        {
+          "name": "AUTP BUENOS AIRES LA PLATA",
+          "value": 3
+        },
+        {
+          "name": "PRIMERA JUNTA",
+          "value": 3
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-gba",
+      "title": "Víctimas fatales viales — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "La Matanza",
+          "value": 361,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Quilmes",
+          "value": 234,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Moreno",
+          "value": 162,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Berazategui",
+          "value": 149,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 142,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 134,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Tigre",
+          "value": 134,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Merlo",
+          "value": 131,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 115,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 115,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 114,
+          "municipioId": "06490"
+        },
+        {
+          "name": "General San Martín",
+          "value": 102,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Morón",
+          "value": 94,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 92,
+          "municipioId": "06840"
+        },
+        {
+          "name": "San Isidro",
+          "value": 91,
+          "municipioId": "06756"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 87,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Lanús",
+          "value": 78,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 77,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Vicente López",
+          "value": 74,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 72,
+          "municipioId": "06270"
+        },
+        {
+          "name": "San Miguel",
+          "value": 62,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 48,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 40,
+          "municipioId": "06408"
+        },
+        {
+          "name": "San Fernando",
+          "value": 29,
+          "municipioId": "06749"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 234,
+      "formatted": "234",
+      "caption": "Víctimas fatales en siniestros viales (2017-2023)",
+      "label": "234 víctimas fatales (2017-2023)"
+    }
+  ],
+  "extras": {
+    "muertesViales": {
+      "quilmes": {
+        "totalVic": 234,
+        "promedioAnual": 33.42857142857143,
+        "tasaPor100K": 36.94400457221526,
+        "tasaAnualPor100K": 5.277714938887895,
+        "years": 7,
+        "motos": 77,
+        "autos": 45,
+        "peatones": 65,
+        "bicis": 3,
+        "utilitarios": 3,
+        "vicVarones": 163,
+        "vicMujeres": 51,
+        "mesPico": {
+          "mes": "Sep",
+          "value": 31
+        },
+        "callesTop": [
+          {
+            "name": "AVE CALCHAQUI",
+            "value": 13
+          },
+          {
+            "name": "TRIUNVIRATO",
+            "value": 10
+          },
+          {
+            "name": "AU. LA PLATA - BUENOS AIRES",
+            "value": 8
+          },
+          {
+            "name": "AVE LOS QUILMES",
+            "value": 7
+          },
+          {
+            "name": "AVE CENTENARIO",
+            "value": 7
+          },
+          {
+            "name": "AVE LA PLATA",
+            "value": 6
+          },
+          {
+            "name": "AVE TOMAS FLORES",
+            "value": 6
+          },
+          {
+            "name": "AVE SAN MARTIN",
+            "value": 6
+          },
+          {
+            "name": "AVE MITRE",
+            "value": 5
+          },
+          {
+            "name": "AVE GRAL MOSCONI",
+            "value": 4
+          },
+          {
+            "name": "CAMINO GENERAL BELGRANO",
+            "value": 4
+          },
+          {
+            "name": "12 DE OCTUBRE",
+            "value": 4
+          },
+          {
+            "name": "URQUIZA",
+            "value": 4
+          },
+          {
+            "name": "AUTP BUENOS AIRES LA PLATA",
+            "value": 3
+          },
+          {
+            "name": "PRIMERA JUNTA",
+            "value": 3
+          }
+        ]
+      },
+      "gba": {
+        "posGBA": 2,
+        "promGBA": 114.04166666666667
+      },
+      "porModo": {
+        "Colisión vehículo-vehículo": 93,
+        "Colisión vehículo-persona": 62,
+        "Vuelco-Despistes": 15,
+        "Sin determinar": 52,
+        "Colisión vehículo-objeto": 12
+      }
+    }
+  }
+}

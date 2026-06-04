@@ -1,0 +1,1105 @@
+{
+  "meta": {
+    "id": "poblacion-estructura",
+    "title": "Estructura por Sexo y Edad — Quilmes",
+    "category": "Población",
+    "subcategory": "Estructura",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "poblacion-total",
+      "label": "Población 2022",
+      "value": 633391,
+      "formatted": "633.391",
+      "unit": "hab",
+      "status": "good",
+      "comparison": "5,8% de los 24 GBA"
+    },
+    {
+      "id": "variacion",
+      "label": "Variación 2010-2022",
+      "value": 8.654019346659965,
+      "formatted": "+8,7%",
+      "status": "good",
+      "comparison": "+50.448 habitantes"
+    },
+    {
+      "id": "densidad",
+      "label": "Densidad",
+      "value": 6914.748908296943,
+      "formatted": "6.915",
+      "unit": "hab/km²",
+      "status": "warning",
+      "comparison": "Ranking 6° en el GBA"
+    },
+    {
+      "id": "edad-mediana",
+      "label": "Edad mediana",
+      "value": 33,
+      "formatted": "33",
+      "unit": "años",
+      "comparison": "Mujeres: 34 • Varones: 32"
+    },
+    {
+      "id": "pct65",
+      "label": "Población 65+",
+      "value": 12.3,
+      "formatted": "12,3%",
+      "status": "good",
+      "comparison": "Índice envejecimiento: 56"
+    },
+    {
+      "id": "dependencia",
+      "label": "Índice de dependencia total",
+      "value": 52.16737382813814,
+      "formatted": "52,2",
+      "comparison": "Juvenil: 33,3 · Vejez: 18,9"
+    },
+    {
+      "id": "razon-masc",
+      "label": "Razón de masculinidad",
+      "value": 92.3795175233432,
+      "formatted": "92,4",
+      "comparison": "Varones por cada 100 mujeres"
+    },
+    {
+      "id": "fecundidad",
+      "label": "Hijos promedio (mujeres 14-49)",
+      "value": 1.4,
+      "formatted": "1,4",
+      "comparison": "Cohorte 40-44: 2,3 hijos/mujer (fecundidad acumulada)"
+    },
+    {
+      "id": "migra-otro-pais",
+      "label": "Nacida/o en otro país",
+      "value": 6.959450689645348,
+      "formatted": "7,0%",
+      "comparison": "43.968 personas"
+    },
+    {
+      "id": "migra-otra-prov",
+      "label": "Nacida/o en otra provincia",
+      "value": 14.281847622725849,
+      "formatted": "14,3%",
+      "comparison": "90.229 personas"
+    }
+  ],
+  "charts": [
+    {
+      "id": "piramide",
+      "type": "bar",
+      "title": "Pirámide poblacional por sexo — Quilmes 2022",
+      "sectionId": "piramide",
+      "data": [
+        {
+          "grupo": "0-4",
+          "Mujeres": 18718,
+          "Varones": -19275
+        },
+        {
+          "grupo": "5-9",
+          "Mujeres": 24240,
+          "Varones": -25056
+        },
+        {
+          "grupo": "10-14",
+          "Mujeres": 25313,
+          "Varones": -26068
+        },
+        {
+          "grupo": "15-19",
+          "Mujeres": 24538,
+          "Varones": -24855
+        },
+        {
+          "grupo": "20-24",
+          "Mujeres": 23708,
+          "Varones": -23436
+        },
+        {
+          "grupo": "25-29",
+          "Mujeres": 24231,
+          "Varones": -23204
+        },
+        {
+          "grupo": "30-34",
+          "Mujeres": 23966,
+          "Varones": -22692
+        },
+        {
+          "grupo": "35-39",
+          "Mujeres": 22734,
+          "Varones": -21684
+        },
+        {
+          "grupo": "40-44",
+          "Mujeres": 23811,
+          "Varones": -22118
+        },
+        {
+          "grupo": "45-49",
+          "Mujeres": 20821,
+          "Varones": -19500
+        },
+        {
+          "grupo": "50-54",
+          "Mujeres": 18688,
+          "Varones": -16996
+        },
+        {
+          "grupo": "55-59",
+          "Mujeres": 16469,
+          "Varones": -14565
+        },
+        {
+          "grupo": "60-64",
+          "Mujeres": 15229,
+          "Varones": -12973
+        },
+        {
+          "grupo": "65-69",
+          "Mujeres": 13757,
+          "Varones": -11041
+        },
+        {
+          "grupo": "70-74",
+          "Mujeres": 11894,
+          "Varones": -8832
+        },
+        {
+          "grupo": "75-79",
+          "Mujeres": 9062,
+          "Varones": -5975
+        },
+        {
+          "grupo": "80-84",
+          "Mujeres": 6109,
+          "Varones": -3306
+        },
+        {
+          "grupo": "85-89",
+          "Mujeres": 3688,
+          "Varones": -1688
+        },
+        {
+          "grupo": "90-94",
+          "Mujeres": 1693,
+          "Varones": -676
+        },
+        {
+          "grupo": "95-99",
+          "Mujeres": 488,
+          "Varones": -170
+        },
+        {
+          "grupo": "100 y más",
+          "Mujeres": 61,
+          "Varones": -20
+        }
+      ],
+      "config": {
+        "xAxis": "grupo",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "serie-65",
+      "type": "line",
+      "title": "% de población 65 y más — Quilmes (1970-2022)",
+      "sectionId": "envejecimiento",
+      "data": [
+        {
+          "id": "Quilmes",
+          "data": [
+            {
+              "x": "1980",
+              "y": 7.4
+            },
+            {
+              "x": "1991",
+              "y": 8.5
+            },
+            {
+              "x": "2001",
+              "y": 10.6
+            },
+            {
+              "x": "2010",
+              "y": 10.8
+            },
+            {
+              "x": "2022",
+              "y": 12.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "serie-env",
+      "type": "line",
+      "title": "Índice de envejecimiento — Quilmes (1970-2022)",
+      "sectionId": "envejecimiento",
+      "data": [
+        {
+          "id": "Quilmes",
+          "data": [
+            {
+              "x": "1980",
+              "y": 25
+            },
+            {
+              "x": "1991",
+              "y": 29
+            },
+            {
+              "x": "2001",
+              "y": 41
+            },
+            {
+              "x": "2010",
+              "y": 44
+            },
+            {
+              "x": "2022",
+              "y": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pob-gba",
+      "type": "bar",
+      "title": "Población por partido — 24 partidos del GBA (2022)",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "La Matanza",
+          "value": 1841247
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 690480
+        },
+        {
+          "partido": "Quilmes",
+          "value": 633391
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 584827
+        },
+        {
+          "partido": "Merlo",
+          "value": 582486
+        },
+        {
+          "partido": "Moreno",
+          "value": 576632
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 496433
+        },
+        {
+          "partido": "Lanús",
+          "value": 461267
+        },
+        {
+          "partido": "General San Martín",
+          "value": 450518
+        },
+        {
+          "partido": "Tigre",
+          "value": 446949
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 367554
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 364176
+        },
+        {
+          "partido": "Berazategui",
+          "value": 358712
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 350674
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 338480
+        },
+        {
+          "partido": "Morón",
+          "value": 331183
+        },
+        {
+          "partido": "San Miguel",
+          "value": 328835
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 326992
+        },
+        {
+          "partido": "San Isidro",
+          "value": 297282
+        },
+        {
+          "partido": "Vicente López",
+          "value": 282280
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 201511
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 185641
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 180232
+        },
+        {
+          "partido": "San Fernando",
+          "value": 171616
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "densidad-gba",
+      "type": "bar",
+      "title": "Densidad poblacional — 24 partidos del GBA (hab/km²)",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Lanús",
+          "value": 9188.585657370517
+        },
+        {
+          "partido": "Vicente López",
+          "value": 8182.028985507246
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 8021.497797356828
+        },
+        {
+          "partido": "General San Martín",
+          "value": 7973.769911504425
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 7784.441939120631
+        },
+        {
+          "partido": "Quilmes",
+          "value": 6914.748908296943
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 6540.106761565836
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 6513.784860557768
+        },
+        {
+          "partido": "Morón",
+          "value": 6010.5807622504535
+        },
+        {
+          "partido": "San Isidro",
+          "value": 5673.320610687023
+        },
+        {
+          "partido": "La Matanza",
+          "value": 5623.845448992059
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 5575.103338632751
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 5185.50279329609
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 4730.498687664041
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 4523.0239752513535
+        },
+        {
+          "partido": "San Miguel",
+          "value": 3971.437198067633
+        },
+        {
+          "partido": "Merlo",
+          "value": 3345.6978747846065
+        },
+        {
+          "partido": "Moreno",
+          "value": 3096.842105263158
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 2790.4369332234132
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 2619.699208443272
+        },
+        {
+          "partido": "Berazategui",
+          "value": 1629.0281562216169
+        },
+        {
+          "partido": "Tigre",
+          "value": 1134.6763137852247
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 845.9739714525609
+        },
+        {
+          "partido": "San Fernando",
+          "value": 172.86059629331186
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "fec-cohorte",
+      "type": "line",
+      "title": "Hijos promedio por mujer según cohorte etaria — Quilmes",
+      "sectionId": "fecundidad",
+      "data": [
+        {
+          "id": "Hijos por mujer",
+          "data": [
+            {
+              "x": "15-19",
+              "y": 0.1
+            },
+            {
+              "x": "20-24",
+              "y": 0.5
+            },
+            {
+              "x": "25-29",
+              "y": 1.1
+            },
+            {
+              "x": "30-34",
+              "y": 1.7
+            },
+            {
+              "x": "35-39",
+              "y": 2.1
+            },
+            {
+              "x": "40-44",
+              "y": 2.3
+            },
+            {
+              "x": "45-49",
+              "y": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "migra",
+      "type": "pie",
+      "title": "Lugar de nacimiento de la población — Quilmes",
+      "sectionId": "migracion",
+      "data": [
+        {
+          "id": "Provincia de Buenos Aires",
+          "label": "Provincia de Buenos Aires",
+          "value": 497577
+        },
+        {
+          "id": "Otra provincia",
+          "label": "Otra provincia",
+          "value": 90229
+        },
+        {
+          "id": "Otro país",
+          "label": "Otro país",
+          "value": 43968
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "ranking-pob",
+      "title": "Población total — 24 partidos GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "La Matanza",
+          "value": 1841247,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 690480,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 633391,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 584827,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Merlo",
+          "value": 582486,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Moreno",
+          "value": 576632,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 496433,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Lanús",
+          "value": 461267,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 450518,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Tigre",
+          "value": 446949,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 367554,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 364176,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Berazategui",
+          "value": 358712,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 350674,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 338480,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Morón",
+          "value": 331183,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Miguel",
+          "value": 328835,
+          "municipioId": "06760"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 326992,
+          "municipioId": "06412"
+        },
+        {
+          "name": "San Isidro",
+          "value": 297282,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Vicente López",
+          "value": 282280,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 201511,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 185641,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 180232,
+          "municipioId": "06410"
+        },
+        {
+          "name": "San Fernando",
+          "value": 171616,
+          "municipioId": "06749"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "ranking-densidad",
+      "title": "Densidad (hab/km²) — 24 partidos GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Lanús",
+          "value": 9188.585657370517,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Vicente López",
+          "value": 8182.028985507246,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 8021.497797356828,
+          "municipioId": "06840"
+        },
+        {
+          "name": "General San Martín",
+          "value": 7973.769911504425,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 7784.441939120631,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 6914.748908296943,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 6540.106761565836,
+          "municipioId": "06035"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 6513.784860557768,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Morón",
+          "value": 6010.5807622504535,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 5673.320610687023,
+          "municipioId": "06756"
+        },
+        {
+          "name": "La Matanza",
+          "value": 5623.845448992059,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 5575.103338632751,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 5185.50279329609,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 4730.498687664041,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 4523.0239752513535,
+          "municipioId": "06028"
+        },
+        {
+          "name": "San Miguel",
+          "value": 3971.437198067633,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Merlo",
+          "value": 3345.6978747846065,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Moreno",
+          "value": 3096.842105263158,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 2790.4369332234132,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 2619.699208443272,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Berazategui",
+          "value": 1629.0281562216169,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Tigre",
+          "value": 1134.6763137852247,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 845.9739714525609,
+          "municipioId": "06270"
+        },
+        {
+          "name": "San Fernando",
+          "value": 172.86059629331186,
+          "municipioId": "06749"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "ranking-65",
+      "title": "% de población 65 años y más — 24 partidos GBA",
+      "sectionId": "envejecimiento",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 19.1,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Isidro",
+          "value": 17.8,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Morón",
+          "value": 17,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 15.6,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Lanús",
+          "value": 15.2,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 14.4,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 14.4,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 14.3,
+          "municipioId": "06408"
+        },
+        {
+          "name": "General San Martín",
+          "value": 14.2,
+          "municipioId": "06371"
+        },
+        {
+          "name": "San Fernando",
+          "value": 13,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Quilmes",
+          "value": 12.3,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 12.2,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Berazategui",
+          "value": 11,
+          "municipioId": "06091"
+        },
+        {
+          "name": "San Miguel",
+          "value": 11,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 10.9,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 10.5,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Tigre",
+          "value": 10.3,
+          "municipioId": "06805"
+        },
+        {
+          "name": "La Matanza",
+          "value": 10,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Merlo",
+          "value": 10,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 9.4,
+          "municipioId": "06260"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 8.7,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Moreno",
+          "value": 8.1,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 7.9,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 7.5,
+          "municipioId": "06270"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 633391,
+      "formatted": "633.391",
+      "caption": "Habitantes en Quilmes (Censo 2022)",
+      "label": "633.391 · Habitantes en Quilmes (Censo 2022)"
+    }
+  ],
+  "extras": {
+    "estructura": {
+      "partido": {
+        "pob2010": 582943,
+        "pob2022": 633391,
+        "varAbs": 50448,
+        "varRel": 8.654019346659965,
+        "superficie": 91.6,
+        "densidad": 6914.748908296943,
+        "edadMediana": 33,
+        "edadMedianaMuj": 34,
+        "edadMedianaVar": 32,
+        "pct65": 12.3,
+        "envIndex": 56,
+        "serie65": [
+          {
+            "year": "1980",
+            "value": 7.4
+          },
+          {
+            "year": "1991",
+            "value": 8.5
+          },
+          {
+            "year": "2001",
+            "value": 10.6
+          },
+          {
+            "year": "2010",
+            "value": 10.8
+          },
+          {
+            "year": "2022",
+            "value": 12.3
+          }
+        ],
+        "serieEnv": [
+          {
+            "year": "1980",
+            "value": 25
+          },
+          {
+            "year": "1991",
+            "value": 29
+          },
+          {
+            "year": "2001",
+            "value": 41
+          },
+          {
+            "year": "2010",
+            "value": 44
+          },
+          {
+            "year": "2022",
+            "value": 56
+          }
+        ],
+        "serieDep": [
+          {
+            "year": "1980",
+            "value": 59
+          },
+          {
+            "year": "1991",
+            "value": 60
+          },
+          {
+            "year": "2001",
+            "value": 57
+          },
+          {
+            "year": "2010",
+            "value": 54
+          },
+          {
+            "year": "2022",
+            "value": 52
+          }
+        ],
+        "razonMasc": 92.3795175233432,
+        "totVar": 304130,
+        "totMuj": 329218,
+        "pob0a14": 138670,
+        "pob15a64": 416218,
+        "pob65plus": 78460,
+        "idxDepenJuv": 33.316675396066486,
+        "idxDepenVej": 18.850698432071656,
+        "idxDepenTot": 52.16737382813814
+      },
+      "gba": {
+        "rankingPob": 3,
+        "rankingDens": 6,
+        "totalGBA": 10849398,
+        "shareGBA": 0.058380289855713655,
+        "varGBA": 9.405160882409143,
+        "deltaVar": -0.7511415357491789
+      },
+      "fecundidad": {
+        "muj14a49": 168706,
+        "sinHijos": 74195,
+        "conHijos": 94511,
+        "promHijos": 1.4,
+        "pctSinHijos": 43.978874491719324,
+        "cohortes": [
+          {
+            "grupo": "15-19",
+            "mujeres": 24528,
+            "promHijos": 0.1
+          },
+          {
+            "grupo": "20-24",
+            "mujeres": 23682,
+            "promHijos": 0.5
+          },
+          {
+            "grupo": "25-29",
+            "mujeres": 24206,
+            "promHijos": 1.1
+          },
+          {
+            "grupo": "30-34",
+            "mujeres": 23952,
+            "promHijos": 1.7
+          },
+          {
+            "grupo": "35-39",
+            "mujeres": 22720,
+            "promHijos": 2.1
+          },
+          {
+            "grupo": "40-44",
+            "mujeres": 23797,
+            "promHijos": 2.3
+          },
+          {
+            "grupo": "45-49",
+            "mujeres": 20811,
+            "promHijos": 2.5
+          }
+        ],
+        "c40a44": 2.3,
+        "c45a49": 2.5
+      },
+      "migraciones": {
+        "total": 631774,
+        "enBSAS": 497577,
+        "otraProv": 90229,
+        "otroPais": 43968,
+        "pctEnBSAS": 78.7587016876288,
+        "pctOtraProv": 14.281847622725849,
+        "pctOtroPais": 6.959450689645348
+      }
+    }
+  }
+}

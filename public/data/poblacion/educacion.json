@@ -1,0 +1,1208 @@
+{
+  "meta": {
+    "id": "poblacion-educacion",
+    "title": "Educación — Quilmes",
+    "category": "Población",
+    "subcategory": "Educación",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "asiste-actual",
+      "label": "Asiste actualmente",
+      "value": 34.72111862786376,
+      "formatted": "34,7%",
+      "status": "good",
+      "comparison": "219.359 personas"
+    },
+    {
+      "id": "tasa-primaria",
+      "label": "Asistencia 5-12 años",
+      "value": 97.56009465686884,
+      "formatted": "97,6%",
+      "status": "warning",
+      "comparison": "Cohorte de primaria"
+    },
+    {
+      "id": "tasa-secundaria",
+      "label": "Asistencia 13-17 años",
+      "value": 94.01739959480395,
+      "formatted": "94,0%",
+      "status": "warning",
+      "comparison": "Cohorte de secundario obligatorio · ~3.012 fuera del sistema"
+    },
+    {
+      "id": "tasa-superior",
+      "label": "Asistencia 18-24 años",
+      "value": 49.369947156858316,
+      "formatted": "49,4%",
+      "comparison": "Edad típica de educación superior"
+    },
+    {
+      "id": "sec-completo",
+      "label": "Secundario completo (5+)",
+      "value": 17.587188252530186,
+      "formatted": "17,6%"
+    },
+    {
+      "id": "universitario",
+      "label": "Universitario completo (5+)",
+      "value": 7.232878096424902,
+      "formatted": "7,2%",
+      "status": "good",
+      "comparison": "Brecha vs prom. GBA: +0,3 pp"
+    },
+    {
+      "id": "superior",
+      "label": "Educación superior completa",
+      "value": 15.276762709866459,
+      "formatted": "15,3%",
+      "comparison": "Terciario + Universitario + Posgrado"
+    },
+    {
+      "id": "sin-instruccion",
+      "label": "Sin instrucción",
+      "value": 0.2334001313507233,
+      "formatted": "0,23%",
+      "comparison": "1.386 personas de 5+"
+    }
+  ],
+  "charts": [
+    {
+      "id": "tasa-edad",
+      "type": "line",
+      "title": "Tasa de asistencia escolar por edad (5 a 24 años) — Quilmes",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Asistencia",
+          "data": [
+            {
+              "x": "5",
+              "y": 97.2
+            },
+            {
+              "x": "6",
+              "y": 97.9
+            },
+            {
+              "x": "7",
+              "y": 97.9
+            },
+            {
+              "x": "8",
+              "y": 97.8
+            },
+            {
+              "x": "9",
+              "y": 97.6
+            },
+            {
+              "x": "10",
+              "y": 97.5
+            },
+            {
+              "x": "11",
+              "y": 97.6
+            },
+            {
+              "x": "12",
+              "y": 96.9
+            },
+            {
+              "x": "13",
+              "y": 96.5
+            },
+            {
+              "x": "14",
+              "y": 95.4
+            },
+            {
+              "x": "15",
+              "y": 94.9
+            },
+            {
+              "x": "16",
+              "y": 93.7
+            },
+            {
+              "x": "17",
+              "y": 89.7
+            },
+            {
+              "x": "18",
+              "y": 70.6
+            },
+            {
+              "x": "19",
+              "y": 58.2
+            },
+            {
+              "x": "20",
+              "y": 52.3
+            },
+            {
+              "x": "21",
+              "y": 47.7
+            },
+            {
+              "x": "22",
+              "y": 41.8
+            },
+            {
+              "x": "23",
+              "y": 39.3
+            },
+            {
+              "x": "24",
+              "y": 34.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asistencia-sexo-15a19",
+      "type": "bar",
+      "title": "Asistencia escolar por sexo registrado al nacer (15-19 y 20-24) — Quilmes",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres 15-19",
+          "value": 83.5
+        },
+        {
+          "categoria": "Varones 15-19",
+          "value": 79.8
+        },
+        {
+          "categoria": "Mujeres 20-24",
+          "value": 50.1
+        },
+        {
+          "categoria": "Varones 20-24",
+          "value": 36.2
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "nivel",
+      "type": "pie",
+      "title": "Máximo nivel educativo alcanzado — Quilmes",
+      "sectionId": "nivel",
+      "data": [
+        {
+          "id": "Sin instrucción",
+          "label": "Sin instrucción",
+          "value": 1386
+        },
+        {
+          "id": "Primario completo",
+          "label": "Primario completo",
+          "value": 75316
+        },
+        {
+          "id": "Secundario completo",
+          "label": "Secundario completo",
+          "value": 104438
+        },
+        {
+          "id": "Terciario",
+          "label": "Terciario no universitario",
+          "value": 41559
+        },
+        {
+          "id": "Universitario",
+          "label": "Universitario completo",
+          "value": 42951
+        },
+        {
+          "id": "Posgrado",
+          "label": "Posgrado",
+          "value": 6208
+        }
+      ]
+    },
+    {
+      "id": "univ-sexo",
+      "type": "bar",
+      "title": "% con universitario completo y posgrado por sexo — Quilmes",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres univ.",
+          "value": 7.4
+        },
+        {
+          "categoria": "Varones univ.",
+          "value": 7.1
+        },
+        {
+          "categoria": "Mujeres posg.",
+          "value": 1.2
+        },
+        {
+          "categoria": "Varones posg.",
+          "value": 0.9
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "gba-univ",
+      "type": "bar",
+      "title": "% con universitario completo — 24 partidos del GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 20.18913937859523
+        },
+        {
+          "partido": "San Isidro",
+          "value": 17.26357935017539
+        },
+        {
+          "partido": "Morón",
+          "value": 13.191917333189506
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 10.888414396772406
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 9.521604089536773
+        },
+        {
+          "partido": "Tigre",
+          "value": 8.931083483886631
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 8.445247859661627
+        },
+        {
+          "partido": "San Fernando",
+          "value": 8.412282760409589
+        },
+        {
+          "partido": "Lanús",
+          "value": 8.36952474075834
+        },
+        {
+          "partido": "General San Martín",
+          "value": 7.6871868373982775
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 7.577031159856329
+        },
+        {
+          "partido": "San Miguel",
+          "value": 7.57688935078432
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 7.354494350122083
+        },
+        {
+          "partido": "Quilmes",
+          "value": 7.232878096424902
+        },
+        {
+          "partido": "Berazategui",
+          "value": 6.666390257771039
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 5.785946288520954
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 5.384758506714531
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 4.724630938921677
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 4.317488139688452
+        },
+        {
+          "partido": "La Matanza",
+          "value": 4.161474957886496
+        },
+        {
+          "partido": "Moreno",
+          "value": 3.9306453482502417
+        },
+        {
+          "partido": "Merlo",
+          "value": 3.6286862332745278
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 3.322181213102856
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 3.0787530356346333
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-superior",
+      "type": "bar",
+      "title": "% con educación superior (terciaria/universitaria/posgrado) — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 37.39337639853305
+        },
+        {
+          "partido": "San Isidro",
+          "value": 32.21025404811678
+        },
+        {
+          "partido": "Morón",
+          "value": 24.995796226439037
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 21.356863947905484
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 19.731262320279505
+        },
+        {
+          "partido": "Tigre",
+          "value": 18.243013255831116
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 17.956425900752677
+        },
+        {
+          "partido": "San Fernando",
+          "value": 17.828777529366715
+        },
+        {
+          "partido": "Lanús",
+          "value": 17.765278637664803
+        },
+        {
+          "partido": "General San Martín",
+          "value": 16.44164366686014
+        },
+        {
+          "partido": "San Miguel",
+          "value": 15.944918969828848
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 15.356914659338342
+        },
+        {
+          "partido": "Quilmes",
+          "value": 15.276762709866459
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 15.19220941457044
+        },
+        {
+          "partido": "Berazategui",
+          "value": 14.441278904473084
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 12.436749152703142
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 12.274102828170799
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 10.990419828952565
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 9.903930715696388
+        },
+        {
+          "partido": "La Matanza",
+          "value": 9.901599699226843
+        },
+        {
+          "partido": "Merlo",
+          "value": 9.684292327920534
+        },
+        {
+          "partido": "Moreno",
+          "value": 9.561878124567654
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 7.912694830195694
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 7.706134047017231
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-univ",
+      "title": "% con universitario completo — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 20.18913937859523,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Isidro",
+          "value": 17.26357935017539,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Morón",
+          "value": 13.191917333189506,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 10.888414396772406,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 9.521604089536773,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Tigre",
+          "value": 8.931083483886631,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 8.445247859661627,
+          "municipioId": "06035"
+        },
+        {
+          "name": "San Fernando",
+          "value": 8.412282760409589,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Lanús",
+          "value": 8.36952474075834,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 7.6871868373982775,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 7.577031159856329,
+          "municipioId": "06490"
+        },
+        {
+          "name": "San Miguel",
+          "value": 7.57688935078432,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 7.354494350122083,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Quilmes",
+          "value": 7.232878096424902,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Berazategui",
+          "value": 6.666390257771039,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 5.785946288520954,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 5.384758506714531,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 4.724630938921677,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 4.317488139688452,
+          "municipioId": "06515"
+        },
+        {
+          "name": "La Matanza",
+          "value": 4.161474957886496,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Moreno",
+          "value": 3.9306453482502417,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Merlo",
+          "value": 3.6286862332745278,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 3.322181213102856,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 3.0787530356346333,
+          "municipioId": "06412"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-superior",
+      "title": "% con educación superior — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 37.39337639853305,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Isidro",
+          "value": 32.21025404811678,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Morón",
+          "value": 24.995796226439037,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 21.356863947905484,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 19.731262320279505,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Tigre",
+          "value": 18.243013255831116,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 17.956425900752677,
+          "municipioId": "06035"
+        },
+        {
+          "name": "San Fernando",
+          "value": 17.828777529366715,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Lanús",
+          "value": 17.765278637664803,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 16.44164366686014,
+          "municipioId": "06371"
+        },
+        {
+          "name": "San Miguel",
+          "value": 15.944918969828848,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 15.356914659338342,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 15.276762709866459,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 15.19220941457044,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Berazategui",
+          "value": 14.441278904473084,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 12.436749152703142,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 12.274102828170799,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 10.990419828952565,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 9.903930715696388,
+          "municipioId": "06515"
+        },
+        {
+          "name": "La Matanza",
+          "value": 9.901599699226843,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Merlo",
+          "value": 9.684292327920534,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Moreno",
+          "value": 9.561878124567654,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 7.912694830195694,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 7.706134047017231,
+          "municipioId": "06412"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-sec",
+      "title": "% con secundario completo — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "La Matanza",
+          "value": 20.979337047780483,
+          "municipioId": "06427"
+        },
+        {
+          "name": "San Fernando",
+          "value": 20.14785261675663,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 20.098301719122233,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 19.857799338427803,
+          "municipioId": "06035"
+        },
+        {
+          "name": "General San Martín",
+          "value": 19.57380272680968,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 19.566593278192805,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Morón",
+          "value": 19.248841186193854,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Lanús",
+          "value": 19.121399802156176,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 19.02110441316991,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 18.78965482613498,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Berazategui",
+          "value": 18.54713561410159,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 18.417466356254614,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 18.407034777786578,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 18.17191826549486,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 18.16071240252852,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Tigre",
+          "value": 17.67102973695423,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Moreno",
+          "value": 17.60919394100293,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Quilmes",
+          "value": 17.587188252530186,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Merlo",
+          "value": 17.226545667490434,
+          "municipioId": "06539"
+        },
+        {
+          "name": "San Miguel",
+          "value": 17.020557955246662,
+          "municipioId": "06760"
+        },
+        {
+          "name": "San Isidro",
+          "value": 17.016617652269424,
+          "municipioId": "06756"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 16.88391072343097,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 16.821999769876882,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Vicente López",
+          "value": 16.188915985628384,
+          "municipioId": "06861"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-sin-inst",
+      "title": "% sin instrucción — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "San Miguel",
+          "value": 0.4231756032606931,
+          "municipioId": "06760"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 0.37204077249673717,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 0.35177729697489785,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Vicente López",
+          "value": 0.33360016382150903,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Fernando",
+          "value": 0.30941587717239594,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 0.299823867307471,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Lanús",
+          "value": 0.2871705363486621,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Moreno",
+          "value": 0.28473995744792235,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Tigre",
+          "value": 0.2846826003232433,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 0.28334191475238985,
+          "municipioId": "06490"
+        },
+        {
+          "name": "La Matanza",
+          "value": 0.26563228142638046,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 0.26517517460677986,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 0.26459637170244793,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 0.24450803576741442,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 0.24114670548362502,
+          "municipioId": "06028"
+        },
+        {
+          "name": "San Isidro",
+          "value": 0.2402295999716543,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Quilmes",
+          "value": 0.2334001313507233,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Berazategui",
+          "value": 0.23099886277482942,
+          "municipioId": "06091"
+        },
+        {
+          "name": "General San Martín",
+          "value": 0.22932682626360743,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Merlo",
+          "value": 0.224847799585293,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 0.21767636272060717,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 0.1799006712359471,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 0.16754847553878474,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Morón",
+          "value": 0.16180562385585975,
+          "municipioId": "06568"
+        }
+      ],
+      "order": "asc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 7.232878096424902,
+      "formatted": "7,2%",
+      "caption": "De la población de 5+ de Quilmes completó estudios universitarios",
+      "label": "7,2% · De la población de 5+ de Quilmes completó estudios universitarios"
+    }
+  ],
+  "extras": {
+    "educacion": {
+      "partido": {
+        "popTotal": 631774,
+        "asisteAct": 219359,
+        "asistio": 380056,
+        "nuncaAsis": 32359,
+        "pob5Mas": 593830,
+        "sinInst": 1386,
+        "primarioCompleto": 75316,
+        "secundarioCompleto": 104438,
+        "terciarioNoUniv": 41559,
+        "universitario": 42951,
+        "posgrado": 6208,
+        "pctSecCompleto": 17.587188252530186,
+        "pctUniversitario": 7.232878096424902,
+        "pctSuperior": 15.276762709866459,
+        "pctSinInst": 0.2334001313507233
+      },
+      "cohortes": {
+        "primaria_5a12": 97.56009465686884,
+        "secundaria_13a17": 94.01739959480395,
+        "superior_18a24": 49.369947156858316,
+        "noAsiste13a17_estim": 3012
+      },
+      "sexoQuilmes": {
+        "tasaMuj_15a19": 83.5086431833007,
+        "tasaVar_15a19": 79.80595032006119,
+        "tasaMuj_20a24": 50.059116628663126,
+        "tasaVar_20a24": 36.20159015132085,
+        "tasaMuj_25a29": 29.740560191688008,
+        "tasaVar_25a29": 20.90293064007942,
+        "pctUnivMuj": 7.39485754893727,
+        "pctUnivVar": 7.056464379947229,
+        "pctSecComplMuj": 17.397764713482783,
+        "pctSecComplVar": 17.79349164467898,
+        "pctPosgradoMuj": 1.1573745073971187,
+        "pctPosgradoVar": 0.9234828496042217
+      },
+      "gba": {
+        "promPondUnivGBA": 6.92557606660119,
+        "deltaUniv": 0.30730202982371235,
+        "posUniv": 14
+      },
+      "tasaPorEdadSimple": [
+        {
+          "edad": 4,
+          "pob": 9005,
+          "asiste": 8404,
+          "pctAsiste": 93.3259300388673
+        },
+        {
+          "edad": 5,
+          "pob": 9409,
+          "asiste": 9145,
+          "pctAsiste": 97.19417578913806
+        },
+        {
+          "edad": 6,
+          "pob": 9571,
+          "asiste": 9371,
+          "pctAsiste": 97.91035419496396
+        },
+        {
+          "edad": 7,
+          "pob": 10210,
+          "asiste": 9997,
+          "pctAsiste": 97.91380999020568
+        },
+        {
+          "edad": 8,
+          "pob": 10074,
+          "asiste": 9854,
+          "pctAsiste": 97.81616041294421
+        },
+        {
+          "edad": 9,
+          "pob": 9999,
+          "asiste": 9764,
+          "pctAsiste": 97.64976497649765
+        },
+        {
+          "edad": 10,
+          "pob": 10201,
+          "asiste": 9944,
+          "pctAsiste": 97.48063915302421
+        },
+        {
+          "edad": 11,
+          "pob": 10206,
+          "asiste": 9965,
+          "pctAsiste": 97.63864393494023
+        },
+        {
+          "edad": 12,
+          "pob": 10620,
+          "asiste": 10291,
+          "pctAsiste": 96.90207156308851
+        },
+        {
+          "edad": 13,
+          "pob": 10305,
+          "asiste": 9940,
+          "pctAsiste": 96.45803008248424
+        },
+        {
+          "edad": 14,
+          "pob": 10021,
+          "asiste": 9557,
+          "pctAsiste": 95.369723580481
+        },
+        {
+          "edad": 15,
+          "pob": 9951,
+          "asiste": 9441,
+          "pctAsiste": 94.87488694603557
+        },
+        {
+          "edad": 16,
+          "pob": 9833,
+          "asiste": 9214,
+          "pctAsiste": 93.70487135157124
+        },
+        {
+          "edad": 17,
+          "pob": 10236,
+          "asiste": 9182,
+          "pctAsiste": 89.7030089878859
+        },
+        {
+          "edad": 18,
+          "pob": 9739,
+          "asiste": 6880,
+          "pctAsiste": 70.6438032652223
+        },
+        {
+          "edad": 19,
+          "pob": 9608,
+          "asiste": 5589,
+          "pctAsiste": 58.17027477102415
+        },
+        {
+          "edad": 20,
+          "pob": 9286,
+          "asiste": 4855,
+          "pctAsiste": 52.28300667671763
+        },
+        {
+          "edad": 21,
+          "pob": 9614,
+          "asiste": 4582,
+          "pctAsiste": 47.65966299147077
+        },
+        {
+          "edad": 22,
+          "pob": 9624,
+          "asiste": 4027,
+          "pctAsiste": 41.843308395677475
+        },
+        {
+          "edad": 23,
+          "pob": 9244,
+          "asiste": 3630,
+          "pctAsiste": 39.268714842059715
+        },
+        {
+          "edad": 24,
+          "pob": 9308,
+          "asiste": 3230,
+          "pctAsiste": 34.70133218736571
+        },
+        {
+          "edad": 25,
+          "pob": 9508,
+          "asiste": 2867,
+          "pctAsiste": 30.153554901135887
+        },
+        {
+          "edad": 26,
+          "pob": 9544,
+          "asiste": 2600,
+          "pctAsiste": 27.242246437552385
+        },
+        {
+          "edad": 27,
+          "pob": 9673,
+          "asiste": 2408,
+          "pctAsiste": 24.8940349426238
+        },
+        {
+          "edad": 28,
+          "pob": 9291,
+          "asiste": 2115,
+          "pctAsiste": 22.763965127542786
+        },
+        {
+          "edad": 29,
+          "pob": 9359,
+          "asiste": 2052,
+          "pctAsiste": 21.92541938241265
+        },
+        {
+          "edad": 30,
+          "pob": 9720,
+          "asiste": 1858,
+          "pctAsiste": 19.11522633744856
+        }
+      ]
+    }
+  }
+}

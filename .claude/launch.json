@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard-quilmes",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "hyperframes-promo",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "hyperframes", "preview", "--port", "3004"],
+      "port": 3004,
+      "cwd": "promo/social-30s"
+    }
+  ]
+}

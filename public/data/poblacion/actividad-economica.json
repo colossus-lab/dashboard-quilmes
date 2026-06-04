@@ -1,0 +1,1063 @@
+{
+  "meta": {
+    "id": "poblacion-actividad-economica",
+    "title": "Actividad Económica — Quilmes",
+    "category": "Población",
+    "subcategory": "Actividad Económica",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "pob14",
+      "label": "Población 14+",
+      "value": 503235,
+      "formatted": "503.235",
+      "unit": "personas"
+    },
+    {
+      "id": "tasa-actividad",
+      "label": "Tasa de actividad",
+      "value": 63.26189553588284,
+      "formatted": "63,3%",
+      "comparison": "PEA / Pob 14+ · vs prom. GBA: -1,3 pp"
+    },
+    {
+      "id": "tasa-empleo",
+      "label": "Tasa de empleo",
+      "value": 56.66934930996453,
+      "formatted": "56,7%",
+      "status": "good",
+      "comparison": "Ocupada / Pob 14+ · vs prom. GBA: -1,5 pp"
+    },
+    {
+      "id": "tasa-desempleo",
+      "label": "Tasa de desempleo",
+      "value": 10.421038083152194,
+      "formatted": "10,4%",
+      "status": "warning",
+      "comparison": "Desocupada / PEA · vs prom. GBA: +0,5 pp"
+    },
+    {
+      "id": "pea",
+      "label": "Población económicamente activa",
+      "value": 318356,
+      "formatted": "318.356",
+      "unit": "personas"
+    },
+    {
+      "id": "pnea",
+      "label": "No económicamente activa",
+      "value": 184879,
+      "formatted": "184.879",
+      "unit": "personas"
+    },
+    {
+      "id": "brecha-empleo",
+      "label": "Brecha de empleo por sexo (BSAS)",
+      "value": 17.96410314008174,
+      "formatted": "+18,0 pp",
+      "status": "warning",
+      "comparison": "Varones − Mujeres · datos provinciales"
+    },
+    {
+      "id": "pos-gba",
+      "label": "Posición empleo en el GBA",
+      "value": 21,
+      "formatted": "21° de 24",
+      "comparison": "Mayor tasa de empleo = posiciones más altas"
+    }
+  ],
+  "charts": [
+    {
+      "id": "composicion",
+      "type": "pie",
+      "title": "Composición de la población de 14 años y más — Quilmes",
+      "sectionId": "composicion",
+      "data": [
+        {
+          "id": "Ocupada",
+          "label": "Ocupada",
+          "value": 285180
+        },
+        {
+          "id": "Desocupada",
+          "label": "Desocupada",
+          "value": 33176
+        },
+        {
+          "id": "No económicamente activa",
+          "label": "No económicamente activa",
+          "value": 184879
+        }
+      ]
+    },
+    {
+      "id": "tasa-edad",
+      "type": "line",
+      "title": "Tasa de actividad por grupo etario — Provincia BSAS",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Tasa de actividad",
+          "data": [
+            {
+              "x": "15-19",
+              "y": 27.7
+            },
+            {
+              "x": "20-24",
+              "y": 74.1
+            },
+            {
+              "x": "25-29",
+              "y": 83.1
+            },
+            {
+              "x": "30-34",
+              "y": 85
+            },
+            {
+              "x": "35-39",
+              "y": 85.8
+            },
+            {
+              "x": "40-44",
+              "y": 85.7
+            },
+            {
+              "x": "45-49",
+              "y": 84.9
+            },
+            {
+              "x": "50-54",
+              "y": 81.5
+            },
+            {
+              "x": "55-59",
+              "y": 74.3
+            },
+            {
+              "x": "60-64",
+              "y": 57.4
+            },
+            {
+              "x": "65-69",
+              "y": 35
+            },
+            {
+              "x": "70-74",
+              "y": 20.8
+            },
+            {
+              "x": "75-79",
+              "y": 13.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tasa-empleo-edad",
+      "type": "line",
+      "title": "Tasa de empleo por grupo etario — Provincia BSAS",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Tasa de empleo",
+          "data": [
+            {
+              "x": "15-19",
+              "y": 19.7
+            },
+            {
+              "x": "20-24",
+              "y": 59.8
+            },
+            {
+              "x": "25-29",
+              "y": 74.1
+            },
+            {
+              "x": "30-34",
+              "y": 78.3
+            },
+            {
+              "x": "35-39",
+              "y": 80.1
+            },
+            {
+              "x": "40-44",
+              "y": 80.4
+            },
+            {
+              "x": "45-49",
+              "y": 80
+            },
+            {
+              "x": "50-54",
+              "y": 77
+            },
+            {
+              "x": "55-59",
+              "y": 70
+            },
+            {
+              "x": "60-64",
+              "y": 54.2
+            },
+            {
+              "x": "65-69",
+              "y": 33.1
+            },
+            {
+              "x": "70-74",
+              "y": 19.7
+            },
+            {
+              "x": "75-79",
+              "y": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexo",
+      "type": "bar",
+      "title": "Tasa de actividad y empleo por sexo — Provincia BSAS",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres act.",
+          "value": 58.8
+        },
+        {
+          "categoria": "Varones act.",
+          "value": 74.9
+        },
+        {
+          "categoria": "Mujeres emp.",
+          "value": 51.8
+        },
+        {
+          "categoria": "Varones emp.",
+          "value": 69.7
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "gba-empleo",
+      "type": "bar",
+      "title": "Tasa de empleo — 24 partidos GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 60.71386839381698
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 60.418555157056716
+        },
+        {
+          "partido": "Tigre",
+          "value": 60.269738849400525
+        },
+        {
+          "partido": "San Fernando",
+          "value": 60.157737090483344
+        },
+        {
+          "partido": "General San Martín",
+          "value": 59.4562194828228
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 59.263409458266814
+        },
+        {
+          "partido": "San Miguel",
+          "value": 59.14501977664476
+        },
+        {
+          "partido": "San Isidro",
+          "value": 59.11074466587568
+        },
+        {
+          "partido": "Moreno",
+          "value": 58.882726990333836
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 58.69756025275189
+        },
+        {
+          "partido": "Morón",
+          "value": 58.560478379145664
+        },
+        {
+          "partido": "La Matanza",
+          "value": 58.49611634440588
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 58.37204399072304
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 58.20239843591399
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 58.19024673922074
+        },
+        {
+          "partido": "Lanús",
+          "value": 57.71767498280235
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 57.43521036108813
+        },
+        {
+          "partido": "Berazategui",
+          "value": 57.00621863063859
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 56.831169281292105
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 56.80325711050447
+        },
+        {
+          "partido": "Quilmes",
+          "value": 56.66934930996453
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 56.57787317326355
+        },
+        {
+          "partido": "Merlo",
+          "value": 56.46505531100817
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 56.13268647470091
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-desempleo",
+      "type": "bar",
+      "title": "Tasa de desempleo — 24 partidos GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 11.307559769817226
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 11.242708936283895
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 11.057187660690229
+        },
+        {
+          "partido": "Berazategui",
+          "value": 10.65994591147952
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 10.559277252194663
+        },
+        {
+          "partido": "Quilmes",
+          "value": 10.421038083152194
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 10.355833062531916
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 10.346257622224384
+        },
+        {
+          "partido": "Merlo",
+          "value": 10.282859555305377
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 10.197878479816806
+        },
+        {
+          "partido": "Lanús",
+          "value": 9.981490733081628
+        },
+        {
+          "partido": "Moreno",
+          "value": 9.872814101622861
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 9.847393337057838
+        },
+        {
+          "partido": "San Miguel",
+          "value": 9.810046976371412
+        },
+        {
+          "partido": "General San Martín",
+          "value": 9.682274386542602
+        },
+        {
+          "partido": "La Matanza",
+          "value": 9.601829251063403
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 9.586515670266
+        },
+        {
+          "partido": "San Fernando",
+          "value": 9.444672707220553
+        },
+        {
+          "partido": "Tigre",
+          "value": 9.312418967459458
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 9.308144555239856
+        },
+        {
+          "partido": "Morón",
+          "value": 9.264631369120865
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 9.201450435029221
+        },
+        {
+          "partido": "San Isidro",
+          "value": 8.218322612877037
+        },
+        {
+          "partido": "Vicente López",
+          "value": 7.6555418734845695
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-actividad",
+      "title": "Tasa de actividad — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Ezeiza",
+          "value": 67.0180900957711,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Tigre",
+          "value": 66.4586464466116,
+          "municipioId": "06805"
+        },
+        {
+          "name": "San Fernando",
+          "value": 66.43202436449049,
+          "municipioId": "06749"
+        },
+        {
+          "name": "General San Martín",
+          "value": 65.83006721989885,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Vicente López",
+          "value": 65.74717056722199,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Miguel",
+          "value": 65.57827983472787,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 65.47839336127333,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Moreno",
+          "value": 65.33292524713579,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 65.26911469644232,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 64.90554124781922,
+          "municipioId": "06035"
+        },
+        {
+          "name": "La Matanza",
+          "value": 64.70940270115368,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 64.56121498187457,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Morón",
+          "value": 64.53985834055047,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 64.40364389567036,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 64.17599259656201,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Lanús",
+          "value": 64.11756365755934,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 64.04520719362714,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 63.95752058951019,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Berazategui",
+          "value": 63.80813086832847,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 63.61151810381648,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 63.540597096401044,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Quilmes",
+          "value": 63.26189553588284,
+          "municipioId": "06658"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 63.24290185287988,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Merlo",
+          "value": 62.9367532571054,
+          "municipioId": "06539"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-empleo",
+      "title": "Tasa de empleo — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 60.71386839381698,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 60.418555157056716,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Tigre",
+          "value": 60.269738849400525,
+          "municipioId": "06805"
+        },
+        {
+          "name": "San Fernando",
+          "value": 60.157737090483344,
+          "municipioId": "06749"
+        },
+        {
+          "name": "General San Martín",
+          "value": 59.4562194828228,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 59.263409458266814,
+          "municipioId": "06840"
+        },
+        {
+          "name": "San Miguel",
+          "value": 59.14501977664476,
+          "municipioId": "06760"
+        },
+        {
+          "name": "San Isidro",
+          "value": 59.11074466587568,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Moreno",
+          "value": 58.882726990333836,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 58.69756025275189,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Morón",
+          "value": 58.560478379145664,
+          "municipioId": "06568"
+        },
+        {
+          "name": "La Matanza",
+          "value": 58.49611634440588,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 58.37204399072304,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 58.20239843591399,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 58.19024673922074,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Lanús",
+          "value": 57.71767498280235,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 57.43521036108813,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Berazategui",
+          "value": 57.00621863063859,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 56.831169281292105,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 56.80325711050447,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Quilmes",
+          "value": 56.66934930996453,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 56.57787317326355,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Merlo",
+          "value": 56.46505531100817,
+          "municipioId": "06539"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 56.13268647470091,
+          "municipioId": "06412"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-desempleo",
+      "title": "Tasa de desempleo — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Malvinas Argentinas",
+          "value": 11.307559769817226,
+          "municipioId": "06515"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 11.242708936283895,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 11.057187660690229,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Berazategui",
+          "value": 10.65994591147952,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 10.559277252194663,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Quilmes",
+          "value": 10.421038083152194,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 10.355833062531916,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 10.346257622224384,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Merlo",
+          "value": 10.282859555305377,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 10.197878479816806,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Lanús",
+          "value": 9.981490733081628,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Moreno",
+          "value": 9.872814101622861,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 9.847393337057838,
+          "municipioId": "06270"
+        },
+        {
+          "name": "San Miguel",
+          "value": 9.810046976371412,
+          "municipioId": "06760"
+        },
+        {
+          "name": "General San Martín",
+          "value": 9.682274386542602,
+          "municipioId": "06371"
+        },
+        {
+          "name": "La Matanza",
+          "value": 9.601829251063403,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 9.586515670266,
+          "municipioId": "06410"
+        },
+        {
+          "name": "San Fernando",
+          "value": 9.444672707220553,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Tigre",
+          "value": 9.312418967459458,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 9.308144555239856,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Morón",
+          "value": 9.264631369120865,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 9.201450435029221,
+          "municipioId": "06840"
+        },
+        {
+          "name": "San Isidro",
+          "value": 8.218322612877037,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Vicente López",
+          "value": 7.6555418734845695,
+          "municipioId": "06861"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 56.66934930996453,
+      "formatted": "56,7%",
+      "caption": "De la población de 14+ de Quilmes está ocupada",
+      "label": "56,7% · De la población de 14+ de Quilmes está ocupada"
+    }
+  ],
+  "extras": {
+    "actividad": {
+      "partido": {
+        "pob14": 503235,
+        "pea": 318356,
+        "ocupada": 285180,
+        "desocupada": 33176,
+        "pnea": 184879,
+        "tasaActividad": 63.26189553588284,
+        "tasaEmpleo": 56.66934930996453,
+        "tasaDesempleo": 10.421038083152194
+      },
+      "gba": {
+        "promPondActGBA": 64.56291739790193,
+        "promPondEmpGBA": 58.18209041869407,
+        "promPondDesGBA": 9.88311438884145,
+        "deltaEmpleo": -1.5127411087295357,
+        "deltaDesempleo": 0.5379236943107433,
+        "posActividad": 22,
+        "posEmpleo": 21,
+        "posDesempleo": 6
+      },
+      "provBSAS": {
+        "mujeres": {
+          "tActividad": 58.81934231569244,
+          "tEmpleo": 51.78277420044426,
+          "tDesempleo": 11.963017331070851
+        },
+        "varones": {
+          "tActividad": 74.88011916268049,
+          "tEmpleo": 69.746877340526,
+          "tDesempleo": 6.855279985602439
+        },
+        "brechaActividad": 16.06077684698805,
+        "brechaEmpleo": 17.96410314008174,
+        "informalidad": {
+          "pctEmpleadoSinAporte": 24.903095538078006,
+          "pctSDSinAporte": 66.47868689792037
+        },
+        "porEdad": [
+          {
+            "grupo": "14",
+            "pob14": 277163,
+            "pea": 17519,
+            "ocupada": 14339,
+            "desocupada": 3180,
+            "pnea": 259644,
+            "tActividad": 6.32082925931672,
+            "tEmpleo": 5.173489967997171,
+            "tDesempleo": 18.151720988640903
+          },
+          {
+            "grupo": "15-19",
+            "pob14": 1367538,
+            "pea": 378180,
+            "ocupada": 269371,
+            "desocupada": 108809,
+            "pnea": 989358,
+            "tActividad": 27.654076157298736,
+            "tEmpleo": 19.697514803976198,
+            "tDesempleo": 28.771748902638954
+          },
+          {
+            "grupo": "20-24",
+            "pob14": 1293362,
+            "pea": 957758,
+            "ocupada": 773237,
+            "desocupada": 184521,
+            "pnea": 335604,
+            "tActividad": 74.05181225364592,
+            "tEmpleo": 59.78504084703277,
+            "tDesempleo": 19.265931477471344
+          },
+          {
+            "grupo": "25-29",
+            "pob14": 1296778,
+            "pea": 1077924,
+            "ocupada": 960550,
+            "desocupada": 117374,
+            "pnea": 218854,
+            "tActividad": 83.12324854369831,
+            "tEmpleo": 74.07204625618263,
+            "tDesempleo": 10.88889383667123
+          },
+          {
+            "grupo": "30-34",
+            "pob14": 1292913,
+            "pea": 1098733,
+            "ocupada": 1011942,
+            "desocupada": 86791,
+            "pnea": 194180,
+            "tActividad": 84.98120136467033,
+            "tEmpleo": 78.26837536632395,
+            "tDesempleo": 7.899189338993186
+          },
+          {
+            "grupo": "35-39",
+            "pob14": 1241676,
+            "pea": 1065040,
+            "ocupada": 994684,
+            "desocupada": 70356,
+            "pnea": 176636,
+            "tActividad": 85.77438880996331,
+            "tEmpleo": 80.10817636807025,
+            "tDesempleo": 6.605949072335311
+          },
+          {
+            "grupo": "40-44",
+            "pob14": 1267205,
+            "pea": 1085831,
+            "ocupada": 1019422,
+            "desocupada": 66409,
+            "pnea": 181374,
+            "tActividad": 85.68708298972936,
+            "tEmpleo": 80.4464944503849,
+            "tDesempleo": 6.1159609552499425
+          },
+          {
+            "grupo": "45-49",
+            "pob14": 1121090,
+            "pea": 951321,
+            "ocupada": 896701,
+            "desocupada": 54620,
+            "pnea": 169769,
+            "tActividad": 84.85679115860457,
+            "tEmpleo": 79.984746987307,
+            "tDesempleo": 5.7414899912858015
+          },
+          {
+            "grupo": "50-54",
+            "pob14": 971898,
+            "pea": 792580,
+            "ocupada": 747999,
+            "desocupada": 44581,
+            "pnea": 179318,
+            "tActividad": 81.54970994898642,
+            "tEmpleo": 76.96270596297143,
+            "tDesempleo": 5.624794973378082
+          },
+          {
+            "grupo": "55-59",
+            "pob14": 848854,
+            "pea": 630531,
+            "ocupada": 594466,
+            "desocupada": 36065,
+            "pnea": 218323,
+            "tActividad": 74.28026492188292,
+            "tEmpleo": 70.03159553939783,
+            "tDesempleo": 5.719782215307415
+          },
+          {
+            "grupo": "60-64",
+            "pob14": 765838,
+            "pea": 439381,
+            "ocupada": 415069,
+            "desocupada": 24312,
+            "pnea": 326457,
+            "tActividad": 57.37257749027862,
+            "tEmpleo": 54.19801576834787,
+            "tDesempleo": 5.533238806411747
+          },
+          {
+            "grupo": "65-69",
+            "pob14": 668744,
+            "pea": 234048,
+            "ocupada": 221300,
+            "desocupada": 12748,
+            "pnea": 434696,
+            "tActividad": 34.99814577775651,
+            "tEmpleo": 33.09188568420801,
+            "tDesempleo": 5.446745966639322
+          },
+          {
+            "grupo": "70-74",
+            "pob14": 556735,
+            "pea": 115731,
+            "ocupada": 109584,
+            "desocupada": 6147,
+            "pnea": 441004,
+            "tActividad": 20.787448247370833,
+            "tEmpleo": 19.68333228555776,
+            "tDesempleo": 5.311455012053814
+          },
+          {
+            "grupo": "75-79",
+            "pob14": 407708,
+            "pea": 56075,
+            "ocupada": 52982,
+            "desocupada": 3093,
+            "pnea": 351633,
+            "tActividad": 13.753715894708959,
+            "tEmpleo": 12.995084717493894,
+            "tDesempleo": 5.515827017387428
+          }
+        ]
+      }
+    }
+  }
+}

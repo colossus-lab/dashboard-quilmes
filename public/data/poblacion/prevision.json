@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "id": "poblacion-prevision",
+    "title": "Previsión Social — Quilmes",
+    "category": "Población",
+    "subcategory": "Previsión",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "pct-percibe",
+      "label": "Percibe jubilación o pensión",
+      "value": 18.327281591201917,
+      "formatted": "18,3%",
+      "comparison": "115.787 personas"
+    },
+    {
+      "id": "jub",
+      "label": "Solo jubilación",
+      "value": 10.467983804335095,
+      "formatted": "10,5%",
+      "comparison": "66.134 personas"
+    },
+    {
+      "id": "jub-pension",
+      "label": "Jubilación + pensión",
+      "value": 2.8125563888352483,
+      "formatted": "2,8%",
+      "comparison": "17.769 personas"
+    },
+    {
+      "id": "pension",
+      "label": "Solo pensión por fallecimiento",
+      "value": 1.3908454605602636,
+      "formatted": "1,4%",
+      "comparison": "8.787 personas"
+    },
+    {
+      "id": "no-percibe",
+      "label": "No percibe",
+      "value": 81.67271840879809,
+      "formatted": "81,7%",
+      "comparison": "515.987 personas"
+    },
+    {
+      "id": "cob-65plus",
+      "label": "Cobertura 65+ (estimación)",
+      "value": 92.73090894635519,
+      "formatted": "92,7%",
+      "status": "good",
+      "comparison": "Aplica tasa provincial 65+ a Quilmes · ~5.703 mayores sin previsión"
+    },
+    {
+      "id": "delta-gba",
+      "label": "Brecha vs promedio GBA (percibe)",
+      "value": 0.8333715785886646,
+      "formatted": "+0,8 pp",
+      "status": "good",
+      "comparison": "Prom. GBA24: 17,5%"
+    },
+    {
+      "id": "pos-gba",
+      "label": "Posición en el GBA (percibe)",
+      "value": 11,
+      "formatted": "11° de 24",
+      "comparison": "Mayor cobertura previsional = posiciones más altas"
+    }
+  ],
+  "charts": [
+    {
+      "id": "percibe",
+      "type": "pie",
+      "title": "Composición de la cobertura previsional — Quilmes",
+      "sectionId": "composicion",
+      "data": [
+        {
+          "id": "Solo jubilación",
+          "label": "Solo jubilación",
+          "value": 66134
+        },
+        {
+          "id": "Solo pensión por fallecimiento",
+          "label": "Solo pensión por fallecimiento",
+          "value": 8787
+        },
+        {
+          "id": "Jubilación + pensión",
+          "label": "Jubilación + pensión",
+          "value": 17769
+        },
+        {
+          "id": "Otra pensión",
+          "label": "Otra pensión",
+          "value": 23097
+        },
+        {
+          "id": "No percibe",
+          "label": "No percibe",
+          "value": 515987
+        }
+      ]
+    },
+    {
+      "id": "percibe-edad-bsas",
+      "type": "line",
+      "title": "% Percibe jubilación o pensión por edad — Provincia BSAS",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Cobertura previsional",
+          "data": [
+            {
+              "x": "0-4",
+              "y": 3.1
+            },
+            {
+              "x": "5-9",
+              "y": 3.5
+            },
+            {
+              "x": "10-14",
+              "y": 4
+            },
+            {
+              "x": "15-19",
+              "y": 4.5
+            },
+            {
+              "x": "20-24",
+              "y": 4.5
+            },
+            {
+              "x": "25-29",
+              "y": 5
+            },
+            {
+              "x": "30-34",
+              "y": 5
+            },
+            {
+              "x": "35-39",
+              "y": 5.1
+            },
+            {
+              "x": "40-44",
+              "y": 5.8
+            },
+            {
+              "x": "45-49",
+              "y": 7.4
+            },
+            {
+              "x": "50-54",
+              "y": 11.1
+            },
+            {
+              "x": "55-59",
+              "y": 18.4
+            },
+            {
+              "x": "60-64",
+              "y": 46.6
+            },
+            {
+              "x": "65-69",
+              "y": 85.4
+            },
+            {
+              "x": "70-74",
+              "y": 96
+            },
+            {
+              "x": "75-79",
+              "y": 96.9
+            },
+            {
+              "x": "80-84",
+              "y": 97
+            },
+            {
+              "x": "85-89",
+              "y": 96.5
+            },
+            {
+              "x": "90-94",
+              "y": 93.1
+            },
+            {
+              "x": "95-99",
+              "y": 80.9
+            },
+            {
+              "x": "100ymás",
+              "y": 91.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "percibe-sexo-bsas",
+      "type": "bar",
+      "title": "% 65+ que percibe jubilación o pensión, por sexo — Provincia BSAS",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres 65+",
+          "value": 95.3
+        },
+        {
+          "categoria": "Varones 65+",
+          "value": 89
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "gba-percibe",
+      "type": "bar",
+      "title": "% Percibe jubilación o pensión — 24 partidos del GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 22.590637375642064
+        },
+        {
+          "partido": "Morón",
+          "value": 21.579463275035888
+        },
+        {
+          "partido": "San Isidro",
+          "value": 21.563764874416343
+        },
+        {
+          "partido": "Lanús",
+          "value": 21.207352618343293
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 20.76678286261554
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 19.91950841870728
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 19.785478412638582
+        },
+        {
+          "partido": "General San Martín",
+          "value": 19.274560576644024
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 19.273750863846548
+        },
+        {
+          "partido": "San Fernando",
+          "value": 18.521440803277635
+        },
+        {
+          "partido": "Quilmes",
+          "value": 18.327281591201917
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 18.189760283762418
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 17.351123780412763
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 17.28728466124494
+        },
+        {
+          "partido": "San Miguel",
+          "value": 17.19517778116893
+        },
+        {
+          "partido": "Berazategui",
+          "value": 16.900437587908286
+        },
+        {
+          "partido": "Merlo",
+          "value": 16.194426673820775
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 15.95365773733872
+        },
+        {
+          "partido": "Tigre",
+          "value": 15.861175779928343
+        },
+        {
+          "partido": "La Matanza",
+          "value": 15.55056478231713
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 15.395406653249674
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 14.928406504364858
+        },
+        {
+          "partido": "Moreno",
+          "value": 14.409005172311979
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 14.093243379317288
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-percibe",
+      "title": "% Percibe jubilación/pensión — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 22.590637375642064,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Morón",
+          "value": 21.579463275035888,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 21.563764874416343,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Lanús",
+          "value": 21.207352618343293,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 20.76678286261554,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 19.91950841870728,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 19.785478412638582,
+          "municipioId": "06035"
+        },
+        {
+          "name": "General San Martín",
+          "value": 19.274560576644024,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 19.273750863846548,
+          "municipioId": "06410"
+        },
+        {
+          "name": "San Fernando",
+          "value": 18.521440803277635,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Quilmes",
+          "value": 18.327281591201917,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 18.189760283762418,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 17.351123780412763,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 17.28728466124494,
+          "municipioId": "06028"
+        },
+        {
+          "name": "San Miguel",
+          "value": 17.19517778116893,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Berazategui",
+          "value": 16.900437587908286,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Merlo",
+          "value": 16.194426673820775,
+          "municipioId": "06539"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 15.95365773733872,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Tigre",
+          "value": 15.861175779928343,
+          "municipioId": "06805"
+        },
+        {
+          "name": "La Matanza",
+          "value": 15.55056478231713,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 15.395406653249674,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 14.928406504364858,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Moreno",
+          "value": 14.409005172311979,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 14.093243379317288,
+          "municipioId": "06270"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 18.327281591201917,
+      "formatted": "18,3%",
+      "caption": "De la población total de Quilmes percibe jubilación o pensión",
+      "label": "18,3% · De la población total de Quilmes percibe jubilación o pensión"
+    }
+  ],
+  "extras": {
+    "prevision": {
+      "partido": {
+        "pctPercibe": 18.327281591201917,
+        "pctJub": 10.467983804335095,
+        "pctSoloPension": 1.3908454605602636,
+        "pctJubYpension": 2.8125563888352483,
+        "pctOtraPension": 3.655895937471311,
+        "pctNoPercibe": 81.67271840879809,
+        "razonCob": 0.2243990643175119,
+        "percibe": 115787,
+        "noPercibe": 515987,
+        "pob": 631774
+      },
+      "gba": {
+        "promPondPercibeGBA": 17.493910012613252,
+        "deltaPercibe": 0.8333715785886646,
+        "posPercibe": 11
+      },
+      "provBSASporCohorte": {
+        "c60a64": 46.639889898385825,
+        "c65a69": 85.37975667819076,
+        "c70a74": 95.98067303115486,
+        "c65plus": 92.73090894635519,
+        "c65plusMuj": 95.34983090514908,
+        "c65plusVar": 89.04246358790363
+      },
+      "quilmesEstimaciones": {
+        "pob65plus": 78460,
+        "estSinPrev65plus": 5703
+      },
+      "provBSASporEdad": [
+        {
+          "grupo": "0-4",
+          "pob": 1053406,
+          "percibe": 32452,
+          "pctPercibe": 3.0806735484703904
+        },
+        {
+          "grupo": "5-9",
+          "pob": 1368213,
+          "percibe": 47507,
+          "pctPercibe": 3.4721932915415947
+        },
+        {
+          "grupo": "10-14",
+          "pob": 1407051,
+          "percibe": 56078,
+          "pctPercibe": 3.985498748801571
+        },
+        {
+          "grupo": "15-19",
+          "pob": 1367538,
+          "percibe": 61882,
+          "pctPercibe": 4.525066213882174
+        },
+        {
+          "grupo": "20-24",
+          "pob": 1293362,
+          "percibe": 57598,
+          "pctPercibe": 4.453354899865621
+        },
+        {
+          "grupo": "25-29",
+          "pob": 1296778,
+          "percibe": 65117,
+          "pctPercibe": 5.021445459438701
+        },
+        {
+          "grupo": "30-34",
+          "pob": 1292913,
+          "percibe": 64883,
+          "pctPercibe": 5.018357770399091
+        },
+        {
+          "grupo": "35-39",
+          "pob": 1241676,
+          "percibe": 62933,
+          "pctPercibe": 5.068391432225476
+        },
+        {
+          "grupo": "40-44",
+          "pob": 1267205,
+          "percibe": 73166,
+          "pctPercibe": 5.773809288946934
+        },
+        {
+          "grupo": "45-49",
+          "pob": 1121090,
+          "percibe": 83086,
+          "pctPercibe": 7.411180190707258
+        },
+        {
+          "grupo": "50-54",
+          "pob": 971898,
+          "percibe": 108128,
+          "pctPercibe": 11.125447320603604
+        },
+        {
+          "grupo": "55-59",
+          "pob": 848854,
+          "percibe": 155919,
+          "pctPercibe": 18.368176388401302
+        },
+        {
+          "grupo": "60-64",
+          "pob": 765838,
+          "percibe": 357186,
+          "pctPercibe": 46.639889898385825
+        },
+        {
+          "grupo": "65-69",
+          "pob": 668744,
+          "percibe": 570972,
+          "pctPercibe": 85.37975667819076
+        },
+        {
+          "grupo": "70-74",
+          "pob": 556735,
+          "percibe": 534358,
+          "pctPercibe": 95.98067303115486
+        },
+        {
+          "grupo": "75-79",
+          "pob": 407708,
+          "percibe": 394885,
+          "pctPercibe": 96.8548569073945
+        },
+        {
+          "grupo": "80-84",
+          "pob": 256271,
+          "percibe": 248501,
+          "pctPercibe": 96.96805334977427
+        },
+        {
+          "grupo": "85-89",
+          "pob": 141470,
+          "percibe": 136475,
+          "pctPercibe": 96.46921608821658
+        },
+        {
+          "grupo": "90-94",
+          "pob": 62594,
+          "percibe": 58244,
+          "pctPercibe": 93.0504521200115
+        },
+        {
+          "grupo": "95-99",
+          "pob": 17469,
+          "percibe": 14130,
+          "pctPercibe": 80.88614116434827
+        },
+        {
+          "grupo": "100ymás",
+          "pob": 2093,
+          "percibe": 1917,
+          "pctPercibe": 91.5910176779742
+        }
+      ]
+    }
+  }
+}

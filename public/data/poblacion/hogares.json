@@ -1,0 +1,974 @@
+{
+  "meta": {
+    "id": "poblacion-hogares",
+    "title": "Hogares de Quilmes",
+    "category": "Población",
+    "subcategory": "Hogares",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "total-hog",
+      "label": "Total de hogares",
+      "value": 214681,
+      "formatted": "214.681",
+      "unit": "hogares"
+    },
+    {
+      "id": "tamano-medio",
+      "label": "Tamaño medio del hogar",
+      "value": 2.9428500892021185,
+      "formatted": "2,9",
+      "unit": "personas/hogar"
+    },
+    {
+      "id": "propia",
+      "label": "Vivienda propia",
+      "value": 70.34157657175064,
+      "formatted": "70,3%",
+      "status": "good",
+      "comparison": "151.010 hogares"
+    },
+    {
+      "id": "escritura",
+      "label": "Propia con escritura",
+      "value": 41.77780055058435,
+      "formatted": "41,8%",
+      "comparison": "89.689 hogares"
+    },
+    {
+      "id": "propia-irregular",
+      "label": "Propia sin escritura",
+      "value": 28.563776021166287,
+      "formatted": "28,6%",
+      "status": "warning",
+      "comparison": "61.321 hogares (boleto, otra doc., sin doc.)"
+    },
+    {
+      "id": "alquiler",
+      "label": "Alquilada",
+      "value": 16.470949921045644,
+      "formatted": "16,5%",
+      "comparison": "35.360 hogares · vs prom. GBA: -1,5 pp"
+    },
+    {
+      "id": "gas-red",
+      "label": "Cocina con gas de red",
+      "value": 60.097540071082214,
+      "formatted": "60,1%",
+      "status": "good",
+      "comparison": "129.018 hogares"
+    },
+    {
+      "id": "hog-unipersonal-hab",
+      "label": "Hogar de 1 sola habitación",
+      "value": 11.284650248508251,
+      "formatted": "11,3%",
+      "status": "warning",
+      "comparison": "24.226 hogares"
+    }
+  ],
+  "charts": [
+    {
+      "id": "tenencia",
+      "type": "pie",
+      "title": "Régimen de tenencia del hogar — Quilmes",
+      "sectionId": "tenencia",
+      "data": [
+        {
+          "id": "Propia con escritura",
+          "label": "Propia con escritura",
+          "value": 89689
+        },
+        {
+          "id": "Propia sin escritura",
+          "label": "Propia sin escritura",
+          "value": 61321
+        },
+        {
+          "id": "Alquilada",
+          "label": "Alquilada",
+          "value": 35360
+        },
+        {
+          "id": "Cedida o prestada",
+          "label": "Cedida o prestada",
+          "value": 13462
+        },
+        {
+          "id": "Otra",
+          "label": "Otra",
+          "value": 14849
+        }
+      ]
+    },
+    {
+      "id": "habitaciones",
+      "type": "bar",
+      "title": "Hogares por cantidad de habitaciones — Quilmes",
+      "sectionId": "tamano",
+      "data": [
+        {
+          "habitaciones": "1 habitación",
+          "value": 24226
+        },
+        {
+          "habitaciones": "2 habitaciones",
+          "value": 59651
+        },
+        {
+          "habitaciones": "3 habitaciones",
+          "value": 67783
+        },
+        {
+          "habitaciones": "4 habitaciones",
+          "value": 35526
+        },
+        {
+          "habitaciones": "5 habitaciones",
+          "value": 14636
+        },
+        {
+          "habitaciones": "6 habitaciones",
+          "value": 5908
+        },
+        {
+          "habitaciones": "7 habitaciones",
+          "value": 2918
+        },
+        {
+          "habitaciones": "8 habitaciones",
+          "value": 1471
+        }
+      ],
+      "config": {
+        "xAxis": "habitaciones"
+      }
+    },
+    {
+      "id": "combustible",
+      "type": "pie",
+      "title": "Combustible para cocinar — Hogares de Quilmes",
+      "sectionId": "servicios",
+      "data": [
+        {
+          "id": "Gas de red",
+          "label": "Gas de red",
+          "value": 129018
+        },
+        {
+          "id": "Gas en garrafa",
+          "label": "Gas en garrafa",
+          "value": 71680
+        },
+        {
+          "id": "Gas a granel",
+          "label": "Gas a granel",
+          "value": 3626
+        },
+        {
+          "id": "Electricidad",
+          "label": "Electricidad",
+          "value": 9714
+        },
+        {
+          "id": "Leña/carbón",
+          "label": "Leña/carbón",
+          "value": 413
+        },
+        {
+          "id": "Otro",
+          "label": "Otro",
+          "value": 230
+        }
+      ]
+    },
+    {
+      "id": "gba-alq",
+      "type": "bar",
+      "title": "% Hogares alquilados — 24 partidos del GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Tres de Febrero",
+          "value": 25.656017210847516
+        },
+        {
+          "partido": "Vicente López",
+          "value": 25.64862344543894
+        },
+        {
+          "partido": "San Fernando",
+          "value": 24.57245127933183
+        },
+        {
+          "partido": "General San Martín",
+          "value": 23.911939559078522
+        },
+        {
+          "partido": "Morón",
+          "value": 22.84421430737294
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 22.7658675130329
+        },
+        {
+          "partido": "San Miguel",
+          "value": 22.66241012787911
+        },
+        {
+          "partido": "San Isidro",
+          "value": 21.863439430530303
+        },
+        {
+          "partido": "Lanús",
+          "value": 20.986228290057337
+        },
+        {
+          "partido": "Tigre",
+          "value": 19.837580699966022
+        },
+        {
+          "partido": "La Matanza",
+          "value": 18.314874103776365
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 17.61688199285568
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 17.325405451484347
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 16.5130164354992
+        },
+        {
+          "partido": "Quilmes",
+          "value": 16.470949921045644
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 15.113998642983947
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 14.59826120187255
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 14.376787511783599
+        },
+        {
+          "partido": "Berazategui",
+          "value": 14.24939228132865
+        },
+        {
+          "partido": "Merlo",
+          "value": 13.093061197674292
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 12.631600403591559
+        },
+        {
+          "partido": "Moreno",
+          "value": 12.591865110017435
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 12.411614744504481
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 10.453802657039514
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-prop-irreg",
+      "type": "bar",
+      "title": "% Hogares con vivienda propia sin escritura — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Moreno",
+          "value": 43.898280770673786
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 43.57158144701842
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 43.0049998407694
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 42.644595324540354
+        },
+        {
+          "partido": "Merlo",
+          "value": 37.92854249017268
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 32.95494022137066
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 32.31545822836208
+        },
+        {
+          "partido": "La Matanza",
+          "value": 32.151144842226486
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 30.593276264302112
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 28.90053918121177
+        },
+        {
+          "partido": "Quilmes",
+          "value": 28.563776021166287
+        },
+        {
+          "partido": "San Miguel",
+          "value": 28.1260862406469
+        },
+        {
+          "partido": "Berazategui",
+          "value": 27.753201796957544
+        },
+        {
+          "partido": "Tigre",
+          "value": 24.90316004077472
+        },
+        {
+          "partido": "Lanús",
+          "value": 19.810304073163326
+        },
+        {
+          "partido": "General San Martín",
+          "value": 19.2754520683676
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 18.663562005472706
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 17.158953215730087
+        },
+        {
+          "partido": "San Fernando",
+          "value": 16.89148879756065
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 16.434722865770848
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 12.80129959460844
+        },
+        {
+          "partido": "Morón",
+          "value": 10.850651925454248
+        },
+        {
+          "partido": "San Isidro",
+          "value": 10.427916316175075
+        },
+        {
+          "partido": "Vicente López",
+          "value": 6.35768630766147
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-gasred",
+      "type": "bar",
+      "title": "% Hogares con gas de red — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 81.23022755200753
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 80.941474337397
+        },
+        {
+          "partido": "Morón",
+          "value": 80.84342126746438
+        },
+        {
+          "partido": "San Isidro",
+          "value": 77.23839759766278
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 73.53923338712512
+        },
+        {
+          "partido": "Lanús",
+          "value": 73.35683197084899
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 72.6485908068044
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 71.73028008691074
+        },
+        {
+          "partido": "General San Martín",
+          "value": 68.18243745355463
+        },
+        {
+          "partido": "San Fernando",
+          "value": 65.43649741482169
+        },
+        {
+          "partido": "Berazategui",
+          "value": 62.41249280615707
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 61.036198538804
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 60.70242738102849
+        },
+        {
+          "partido": "Quilmes",
+          "value": 60.097540071082214
+        },
+        {
+          "partido": "San Miguel",
+          "value": 57.386436398895
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 55.943449332336684
+        },
+        {
+          "partido": "La Matanza",
+          "value": 52.30962943949385
+        },
+        {
+          "partido": "Tigre",
+          "value": 51.03907577302073
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 50.354590153268454
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 50.004776917932546
+        },
+        {
+          "partido": "Merlo",
+          "value": 42.63799314551009
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 42.449043780298524
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 37.01933366626239
+        },
+        {
+          "partido": "Moreno",
+          "value": 30.924609918121426
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-alq",
+      "title": "% Hogares alquilados — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Tres de Febrero",
+          "value": 25.656017210847516,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Vicente López",
+          "value": 25.64862344543894,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Fernando",
+          "value": 24.57245127933183,
+          "municipioId": "06749"
+        },
+        {
+          "name": "General San Martín",
+          "value": 23.911939559078522,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Morón",
+          "value": 22.84421430737294,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 22.7658675130329,
+          "municipioId": "06035"
+        },
+        {
+          "name": "San Miguel",
+          "value": 22.66241012787911,
+          "municipioId": "06760"
+        },
+        {
+          "name": "San Isidro",
+          "value": 21.863439430530303,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Lanús",
+          "value": 20.986228290057337,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Tigre",
+          "value": 19.837580699966022,
+          "municipioId": "06805"
+        },
+        {
+          "name": "La Matanza",
+          "value": 18.314874103776365,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 17.61688199285568,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 17.325405451484347,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 16.5130164354992,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Quilmes",
+          "value": 16.470949921045644,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 15.113998642983947,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 14.59826120187255,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 14.376787511783599,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Berazategui",
+          "value": 14.24939228132865,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Merlo",
+          "value": 13.093061197674292,
+          "municipioId": "06539"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 12.631600403591559,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Moreno",
+          "value": 12.591865110017435,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 12.411614744504481,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 10.453802657039514,
+          "municipioId": "06274"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-prop-irreg",
+      "title": "% Vivienda propia sin escritura — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Moreno",
+          "value": 43.898280770673786,
+          "municipioId": "06560"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 43.57158144701842,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 43.0049998407694,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 42.644595324540354,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Merlo",
+          "value": 37.92854249017268,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 32.95494022137066,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 32.31545822836208,
+          "municipioId": "06260"
+        },
+        {
+          "name": "La Matanza",
+          "value": 32.151144842226486,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 30.593276264302112,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 28.90053918121177,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 28.563776021166287,
+          "municipioId": "06658"
+        },
+        {
+          "name": "San Miguel",
+          "value": 28.1260862406469,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Berazategui",
+          "value": 27.753201796957544,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Tigre",
+          "value": 24.90316004077472,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Lanús",
+          "value": 19.810304073163326,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 19.2754520683676,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 18.663562005472706,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 17.158953215730087,
+          "municipioId": "06408"
+        },
+        {
+          "name": "San Fernando",
+          "value": 16.89148879756065,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 16.434722865770848,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 12.80129959460844,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Morón",
+          "value": 10.850651925454248,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 10.427916316175075,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Vicente López",
+          "value": 6.35768630766147,
+          "municipioId": "06861"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-gasred",
+      "title": "% Gas de red — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 81.23022755200753,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 80.941474337397,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Morón",
+          "value": 80.84342126746438,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 77.23839759766278,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 73.53923338712512,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Lanús",
+          "value": 73.35683197084899,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 72.6485908068044,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 71.73028008691074,
+          "municipioId": "06035"
+        },
+        {
+          "name": "General San Martín",
+          "value": 68.18243745355463,
+          "municipioId": "06371"
+        },
+        {
+          "name": "San Fernando",
+          "value": 65.43649741482169,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Berazategui",
+          "value": 62.41249280615707,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 61.036198538804,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 60.70242738102849,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 60.097540071082214,
+          "municipioId": "06658"
+        },
+        {
+          "name": "San Miguel",
+          "value": 57.386436398895,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 55.943449332336684,
+          "municipioId": "06260"
+        },
+        {
+          "name": "La Matanza",
+          "value": 52.30962943949385,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Tigre",
+          "value": 51.03907577302073,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 50.354590153268454,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 50.004776917932546,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Merlo",
+          "value": 42.63799314551009,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 42.449043780298524,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 37.01933366626239,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Moreno",
+          "value": 30.924609918121426,
+          "municipioId": "06560"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 214681,
+      "formatted": "214.681",
+      "caption": "Hogares censados en Quilmes",
+      "label": "214.681 · Hogares censados en Quilmes"
+    }
+  ],
+  "extras": {
+    "hogares": {
+      "partido": {
+        "totalHog": 214681,
+        "tamanoMedio": 2.9428500892021185,
+        "pobVivPart": 631774,
+        "tenencia": {
+          "propia": 151010,
+          "conEscritura": 89689,
+          "propiaIrregular": 61321,
+          "conBoleto": 23515,
+          "sinDoc": 24882,
+          "alquilada": 35360,
+          "cedidaTrabajo": 633,
+          "cedidaPrestada": 12829,
+          "otra": 14849,
+          "pctPropia": 70.34157657175064,
+          "pctEscritura": 41.77780055058435,
+          "pctPropiaIrregular": 28.563776021166287,
+          "pctAlquiler": 16.470949921045644,
+          "pctCedida": 6.270699316660533,
+          "pctOtra": 6.916774190543178
+        },
+        "combustible": {
+          "gasRed": 129018,
+          "garrafa": 71680,
+          "pctGasRed": 60.097540071082214,
+          "pctGarrafa": 33.3890749530699
+        },
+        "habitaciones": {
+          "hg1": 24226,
+          "hg2": 59651,
+          "hg3": 67783,
+          "hg4": 35526,
+          "hg5plus": 27495,
+          "pctHogUni": 11.284650248508251,
+          "pctHog2hab": 27.785877651026407,
+          "pctHog1o2": 39.07052789953466
+        },
+        "agua": {
+          "hogConAguaDentro": 202752,
+          "hogConAguaRedPub": 203635,
+          "pctHogAguaDentro": 94.44338343868344,
+          "pctHogAguaRedPub": 94.85469137930231
+        },
+        "cloaca": {
+          "hogCloaca": 165781,
+          "pctHogCloaca": 77.22201778452681
+        },
+        "digital": {
+          "hogInternetViv": 174527,
+          "hogSinInternetViv": 40154,
+          "hogConPC": 117098,
+          "pctHogInternet": 81.2959693685049,
+          "pctHogConPC": 56.59979224989635,
+          "pctHogSinInternet": 18.7040306314951
+        }
+      },
+      "gba": {
+        "promPondAlqGBA": 18.0053095459771,
+        "promPondPropIrregGBA": 27.557484343203075,
+        "posAlq": 15,
+        "posPropIrreg": 11
+      }
+    }
+  }
+}

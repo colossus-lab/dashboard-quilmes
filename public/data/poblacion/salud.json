@@ -1,0 +1,1095 @@
+{
+  "meta": {
+    "id": "poblacion-salud",
+    "title": "Cobertura de Salud — Quilmes",
+    "category": "Población",
+    "subcategory": "Salud",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "obra-social",
+      "label": "Con obra social, prepaga o PAMI",
+      "value": 61.611272385378314,
+      "formatted": "61,6%",
+      "status": "good",
+      "comparison": "389.244 personas"
+    },
+    {
+      "id": "sin-cobertura",
+      "label": "Sin cobertura",
+      "value": 35.771652521313,
+      "formatted": "35,8%",
+      "status": "critical",
+      "comparison": "225.996 personas"
+    },
+    {
+      "id": "plan-estatal",
+      "label": "Plan estatal de salud",
+      "value": 2.6170750933086833,
+      "formatted": "2,6%",
+      "comparison": "16.534 personas"
+    },
+    {
+      "id": "dependencia-publica",
+      "label": "Sin OS ni prepaga",
+      "value": 38.38872761462168,
+      "formatted": "38,4%",
+      "status": "warning",
+      "comparison": "242.530 personas dependen del sector público"
+    },
+    {
+      "id": "razon-os-sin",
+      "label": "Razón cobertura/sin cobertura",
+      "value": 1.7223490681250995,
+      "formatted": "1,7",
+      "comparison": "1,7 cubiertos por cada uno sin cobertura"
+    },
+    {
+      "id": "delta-gba",
+      "label": "Brecha vs promedio GBA (sin cobertura)",
+      "value": -1.780989114869783,
+      "formatted": "-1,8 pp",
+      "status": "good",
+      "comparison": "Prom. GBA24: 37,6%"
+    },
+    {
+      "id": "pos-gba",
+      "label": "Posición en el GBA (sin cobertura)",
+      "value": 13,
+      "formatted": "13° de 24",
+      "comparison": "Ranking ascendente: 1° = menor % sin cobertura"
+    },
+    {
+      "id": "pob-total",
+      "label": "Población censada (viv. particulares)",
+      "value": 631774,
+      "formatted": "631.774",
+      "unit": "hab"
+    }
+  ],
+  "charts": [
+    {
+      "id": "cobertura",
+      "type": "pie",
+      "title": "Tipo de cobertura de salud — Quilmes",
+      "sectionId": "foto",
+      "data": [
+        {
+          "id": "Obra social, prepaga o PAMI",
+          "label": "Obra social, prepaga o PAMI",
+          "value": 389244
+        },
+        {
+          "id": "Plan estatal de salud",
+          "label": "Plan estatal de salud",
+          "value": 16534
+        },
+        {
+          "id": "Sin cobertura",
+          "label": "Sin cobertura",
+          "value": 225996
+        }
+      ]
+    },
+    {
+      "id": "cob-edad-bsas",
+      "type": "line",
+      "title": "% con obra social, prepaga o PAMI por edad — Provincia de Buenos Aires",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Cobertura formal",
+          "data": [
+            {
+              "x": "0-4",
+              "y": 51
+            },
+            {
+              "x": "5-9",
+              "y": 54.4
+            },
+            {
+              "x": "10-14",
+              "y": 56.3
+            },
+            {
+              "x": "15-19",
+              "y": 56.4
+            },
+            {
+              "x": "20-24",
+              "y": 45.4
+            },
+            {
+              "x": "25-29",
+              "y": 47.4
+            },
+            {
+              "x": "30-34",
+              "y": 55.5
+            },
+            {
+              "x": "35-39",
+              "y": 61
+            },
+            {
+              "x": "40-44",
+              "y": 63.7
+            },
+            {
+              "x": "45-49",
+              "y": 65.1
+            },
+            {
+              "x": "50-54",
+              "y": 65.5
+            },
+            {
+              "x": "55-59",
+              "y": 66.4
+            },
+            {
+              "x": "60-64",
+              "y": 75.7
+            },
+            {
+              "x": "65-69",
+              "y": 91.2
+            },
+            {
+              "x": "70-74",
+              "y": 96.1
+            },
+            {
+              "x": "75-79",
+              "y": 96.7
+            },
+            {
+              "x": "80-84",
+              "y": 96.9
+            },
+            {
+              "x": "85-89",
+              "y": 96.6
+            },
+            {
+              "x": "90-94",
+              "y": 94.4
+            },
+            {
+              "x": "95-99",
+              "y": 86.6
+            },
+            {
+              "x": "100ymás",
+              "y": 89.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sin-edad-bsas",
+      "type": "line",
+      "title": "% sin cobertura por edad — Provincia de Buenos Aires",
+      "sectionId": "edad",
+      "data": [
+        {
+          "id": "Sin cobertura",
+          "data": [
+            {
+              "x": "0-4",
+              "y": 46.1
+            },
+            {
+              "x": "5-9",
+              "y": 42.8
+            },
+            {
+              "x": "10-14",
+              "y": 40.8
+            },
+            {
+              "x": "15-19",
+              "y": 40.9
+            },
+            {
+              "x": "20-24",
+              "y": 52.1
+            },
+            {
+              "x": "25-29",
+              "y": 49.9
+            },
+            {
+              "x": "30-34",
+              "y": 41.6
+            },
+            {
+              "x": "35-39",
+              "y": 36.1
+            },
+            {
+              "x": "40-44",
+              "y": 33.3
+            },
+            {
+              "x": "45-49",
+              "y": 32
+            },
+            {
+              "x": "50-54",
+              "y": 31.4
+            },
+            {
+              "x": "55-59",
+              "y": 30.5
+            },
+            {
+              "x": "60-64",
+              "y": 21.8
+            },
+            {
+              "x": "65-69",
+              "y": 7.4
+            },
+            {
+              "x": "70-74",
+              "y": 2.9
+            },
+            {
+              "x": "75-79",
+              "y": 2.4
+            },
+            {
+              "x": "80-84",
+              "y": 2.2
+            },
+            {
+              "x": "85-89",
+              "y": 2.5
+            },
+            {
+              "x": "90-94",
+              "y": 4.7
+            },
+            {
+              "x": "95-99",
+              "y": 11.9
+            },
+            {
+              "x": "100ymás",
+              "y": 9.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genero-bsas",
+      "type": "bar",
+      "title": "Cobertura formal por sexo registrado al nacer — Provincia BSAS",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres",
+          "value": 63.6
+        },
+        {
+          "categoria": "Varones",
+          "value": 60.8
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "sin-genero-bsas",
+      "type": "bar",
+      "title": "% sin cobertura por sexo registrado al nacer — Provincia BSAS",
+      "sectionId": "brecha",
+      "data": [
+        {
+          "categoria": "Mujeres",
+          "value": 33.6
+        },
+        {
+          "categoria": "Varones",
+          "value": 36.7
+        }
+      ],
+      "config": {
+        "xAxis": "categoria"
+      }
+    },
+    {
+      "id": "gba-sin",
+      "type": "bar",
+      "title": "% sin cobertura — 24 partidos del GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Moreno",
+          "value": 50.24003140208212
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 48.346762875868414
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 46.67026003975169
+        },
+        {
+          "partido": "Merlo",
+          "value": 46.484168094049025
+        },
+        {
+          "partido": "La Matanza",
+          "value": 46.06998380115483
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 41.45673020007103
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 41.11922263618971
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 40.47412571801455
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 39.18989590352687
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 38.01433396923184
+        },
+        {
+          "partido": "Berazategui",
+          "value": 36.053559866937555
+        },
+        {
+          "partido": "Quilmes",
+          "value": 35.771652521313
+        },
+        {
+          "partido": "San Miguel",
+          "value": 35.685945368533496
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 31.890203440853256
+        },
+        {
+          "partido": "General San Martín",
+          "value": 31.46840403776802
+        },
+        {
+          "partido": "Tigre",
+          "value": 31.159714177520947
+        },
+        {
+          "partido": "San Fernando",
+          "value": 30.92478623486987
+        },
+        {
+          "partido": "Lanús",
+          "value": 28.086141353370387
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 28.07135423921861
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 27.197028033307664
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 26.32217683711366
+        },
+        {
+          "partido": "Morón",
+          "value": 22.43101266399002
+        },
+        {
+          "partido": "San Isidro",
+          "value": 19.312246180459358
+        },
+        {
+          "partido": "Vicente López",
+          "value": 13.536702300198545
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-os",
+      "type": "bar",
+      "title": "% con obra social, prepaga o PAMI — 24 partidos del GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 84.86174926303107
+        },
+        {
+          "partido": "San Isidro",
+          "value": 78.54975707653948
+        },
+        {
+          "partido": "Morón",
+          "value": 75.94752319303709
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 71.89169752167342
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 70.76112486510506
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 69.58185498078483
+        },
+        {
+          "partido": "Lanús",
+          "value": 69.33757316646417
+        },
+        {
+          "partido": "San Fernando",
+          "value": 66.39723201187616
+        },
+        {
+          "partido": "Tigre",
+          "value": 66.28836342207215
+        },
+        {
+          "partido": "General San Martín",
+          "value": 66.19302906842024
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 66.04140029456035
+        },
+        {
+          "partido": "San Miguel",
+          "value": 61.83366397070045
+        },
+        {
+          "partido": "Quilmes",
+          "value": 61.611272385378314
+        },
+        {
+          "partido": "Berazategui",
+          "value": 61.47970574445759
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 59.19529668457684
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 58.315629559900486
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 57.076539563424255
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 55.78696578666983
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 55.621286879468336
+        },
+        {
+          "partido": "Merlo",
+          "value": 51.26039581484615
+        },
+        {
+          "partido": "La Matanza",
+          "value": 50.95244419672017
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 50.46535202295676
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 48.61166598033611
+        },
+        {
+          "partido": "Moreno",
+          "value": 47.096870560200635
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-os",
+      "title": "% con obra social, prepaga o PAMI — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 84.86174926303107,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Isidro",
+          "value": 78.54975707653948,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Morón",
+          "value": 75.94752319303709,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 71.89169752167342,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 70.76112486510506,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 69.58185498078483,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Lanús",
+          "value": 69.33757316646417,
+          "municipioId": "06434"
+        },
+        {
+          "name": "San Fernando",
+          "value": 66.39723201187616,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Tigre",
+          "value": 66.28836342207215,
+          "municipioId": "06805"
+        },
+        {
+          "name": "General San Martín",
+          "value": 66.19302906842024,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 66.04140029456035,
+          "municipioId": "06408"
+        },
+        {
+          "name": "San Miguel",
+          "value": 61.83366397070045,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Quilmes",
+          "value": 61.611272385378314,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Berazategui",
+          "value": 61.47970574445759,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 59.19529668457684,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 58.315629559900486,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 57.076539563424255,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 55.78696578666983,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 55.621286879468336,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Merlo",
+          "value": 51.26039581484615,
+          "municipioId": "06539"
+        },
+        {
+          "name": "La Matanza",
+          "value": 50.95244419672017,
+          "municipioId": "06427"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 50.46535202295676,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 48.61166598033611,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Moreno",
+          "value": 47.096870560200635,
+          "municipioId": "06560"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-sin",
+      "title": "% sin cobertura — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Moreno",
+          "value": 50.24003140208212,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 48.346762875868414,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 46.67026003975169,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Merlo",
+          "value": 46.484168094049025,
+          "municipioId": "06539"
+        },
+        {
+          "name": "La Matanza",
+          "value": 46.06998380115483,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 41.45673020007103,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 41.11922263618971,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 40.47412571801455,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 39.18989590352687,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 38.01433396923184,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Berazategui",
+          "value": 36.053559866937555,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Quilmes",
+          "value": 35.771652521313,
+          "municipioId": "06658"
+        },
+        {
+          "name": "San Miguel",
+          "value": 35.685945368533496,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 31.890203440853256,
+          "municipioId": "06408"
+        },
+        {
+          "name": "General San Martín",
+          "value": 31.46840403776802,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Tigre",
+          "value": 31.159714177520947,
+          "municipioId": "06805"
+        },
+        {
+          "name": "San Fernando",
+          "value": 30.92478623486987,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Lanús",
+          "value": 28.086141353370387,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 28.07135423921861,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 27.197028033307664,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 26.32217683711366,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Morón",
+          "value": 22.43101266399002,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 19.312246180459358,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Vicente López",
+          "value": 13.536702300198545,
+          "municipioId": "06861"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 35.771652521313,
+      "formatted": "35,8%",
+      "caption": "De la población de Quilmes no tiene obra social, prepaga ni plan estatal",
+      "label": "35,8% · De la población de Quilmes no tiene obra social, prepaga ni plan estatal"
+    }
+  ],
+  "extras": {
+    "cobertura": {
+      "partido": {
+        "pctOS": 61.611272385378314,
+        "pctEstatal": 2.6170750933086833,
+        "pctSin": 35.771652521313,
+        "pctSinOSPrepaga": 38.38872761462168,
+        "razonOSsin": 1.7223490681250995,
+        "sinOSPrepaga": 242530,
+        "obraSocial": 389244,
+        "planEstatal": 16534,
+        "sinCobertura": 225996,
+        "pob": 631774
+      },
+      "gba": {
+        "promPondSinGBA": 37.552641636182784,
+        "promPondOSGBA": 59.88970253309406,
+        "deltaSin": -1.780989114869783,
+        "posSinDesdeMejor": 13,
+        "posSin": 12
+      },
+      "provBSASporEdad": [
+        {
+          "grupo": "0-4",
+          "pob": 1053406,
+          "os": 537421,
+          "planEstatal": 30121,
+          "sin": 485864,
+          "pctOS": 51.01746145360858,
+          "pctEstatal": 2.8593913457869045,
+          "pctSin": 46.123147200604514
+        },
+        {
+          "grupo": "5-9",
+          "pob": 1368213,
+          "os": 744773,
+          "planEstatal": 38440,
+          "sin": 585000,
+          "pctOS": 54.433995291668765,
+          "pctEstatal": 2.809504075754287,
+          "pctSin": 42.756500632576945
+        },
+        {
+          "grupo": "10-14",
+          "pob": 1407051,
+          "os": 792137,
+          "planEstatal": 40650,
+          "sin": 574264,
+          "pctOS": 56.29767506650434,
+          "pctEstatal": 2.889021080259351,
+          "pctSin": 40.81330385323631
+        },
+        {
+          "grupo": "15-19",
+          "pob": 1367538,
+          "os": 771050,
+          "planEstatal": 36822,
+          "sin": 559666,
+          "pctOS": 56.38234549972287,
+          "pctEstatal": 2.6925760015443814,
+          "pctSin": 40.92507849873276
+        },
+        {
+          "grupo": "20-24",
+          "pob": 1293362,
+          "os": 587218,
+          "planEstatal": 32089,
+          "sin": 674055,
+          "pctOS": 45.40244726534412,
+          "pctEstatal": 2.4810532550051727,
+          "pctSin": 52.11649947965071
+        },
+        {
+          "grupo": "25-29",
+          "pob": 1296778,
+          "os": 614056,
+          "planEstatal": 35583,
+          "sin": 647139,
+          "pctOS": 47.352438119709,
+          "pctEstatal": 2.7439546321729704,
+          "pctSin": 49.90360724811803
+        },
+        {
+          "grupo": "30-34",
+          "pob": 1292913,
+          "os": 717436,
+          "planEstatal": 38128,
+          "sin": 537349,
+          "pctOS": 55.48988988431549,
+          "pctEstatal": 2.948999662003553,
+          "pctSin": 41.561110453680946
+        },
+        {
+          "grupo": "35-39",
+          "pob": 1241676,
+          "os": 757363,
+          "planEstatal": 36147,
+          "sin": 448166,
+          "pctOS": 60.99521936479404,
+          "pctEstatal": 2.9111459027958984,
+          "pctSin": 36.09363473241006
+        },
+        {
+          "grupo": "40-44",
+          "pob": 1267205,
+          "os": 807608,
+          "planEstatal": 37974,
+          "sin": 421623,
+          "pctOS": 63.7314404535967,
+          "pctEstatal": 2.9966737820636755,
+          "pctSin": 33.27188576433963
+        },
+        {
+          "grupo": "45-49",
+          "pob": 1121090,
+          "os": 729550,
+          "planEstatal": 33342,
+          "sin": 358198,
+          "pctOS": 65.07506087825242,
+          "pctEstatal": 2.974069878421893,
+          "pctSin": 31.95086924332569
+        },
+        {
+          "grupo": "50-54",
+          "pob": 971898,
+          "os": 636696,
+          "planEstatal": 30086,
+          "sin": 305116,
+          "pctOS": 65.51057827055926,
+          "pctEstatal": 3.095592335821249,
+          "pctSin": 31.393829393619495
+        },
+        {
+          "grupo": "55-59",
+          "pob": 848854,
+          "os": 563576,
+          "planEstatal": 26759,
+          "sin": 258519,
+          "pctOS": 66.39257163187074,
+          "pctEstatal": 3.1523677805606143,
+          "pctSin": 30.45506058756865
+        },
+        {
+          "grupo": "60-64",
+          "pob": 765838,
+          "os": 579664,
+          "planEstatal": 19072,
+          "sin": 167102,
+          "pctOS": 75.69015901535312,
+          "pctEstatal": 2.490343910853209,
+          "pctSin": 21.819497073793677
+        },
+        {
+          "grupo": "65-69",
+          "pob": 668744,
+          "os": 610077,
+          "planEstatal": 9443,
+          "sin": 49224,
+          "pctOS": 91.22728577751725,
+          "pctEstatal": 1.41205005203785,
+          "pctSin": 7.360664170444893
+        },
+        {
+          "grupo": "70-74",
+          "pob": 556735,
+          "os": 535172,
+          "planEstatal": 5614,
+          "sin": 15949,
+          "pctOS": 96.12688262818038,
+          "pctEstatal": 1.0083792109351846,
+          "pctSin": 2.864738160884442
+        },
+        {
+          "grupo": "75-79",
+          "pob": 407708,
+          "os": 394366,
+          "planEstatal": 3725,
+          "sin": 9617,
+          "pctOS": 96.72755992033514,
+          "pctEstatal": 0.9136440786052764,
+          "pctSin": 2.3587960010595816
+        },
+        {
+          "grupo": "80-84",
+          "pob": 256271,
+          "os": 248348,
+          "planEstatal": 2164,
+          "sin": 5759,
+          "pctOS": 96.90835092538758,
+          "pctEstatal": 0.8444186037436932,
+          "pctSin": 2.247230470868729
+        },
+        {
+          "grupo": "85-89",
+          "pob": 141470,
+          "os": 136640,
+          "planEstatal": 1227,
+          "sin": 3603,
+          "pctOS": 96.58584858980703,
+          "pctEstatal": 0.8673216936452958,
+          "pctSin": 2.546829716547678
+        },
+        {
+          "grupo": "90-94",
+          "pob": 62594,
+          "os": 59068,
+          "planEstatal": 615,
+          "sin": 2911,
+          "pctOS": 94.36687222417484,
+          "pctEstatal": 0.9825222864811323,
+          "pctSin": 4.650605489344026
+        },
+        {
+          "grupo": "95-99",
+          "pob": 17469,
+          "os": 15122,
+          "planEstatal": 274,
+          "sin": 2073,
+          "pctOS": 86.56477188161887,
+          "pctEstatal": 1.5684927586009503,
+          "pctSin": 11.866735359780183
+        },
+        {
+          "grupo": "100ymás",
+          "pob": 2093,
+          "os": 1869,
+          "planEstatal": 28,
+          "sin": 196,
+          "pctOS": 89.29765886287625,
+          "pctEstatal": 1.3377926421404682,
+          "pctSin": 9.364548494983277
+        }
+      ],
+      "provBSASporGenero": {
+        "mujeres": {
+          "pctOS": 63.616618824917616,
+          "pctSin": 33.63469993356987
+        },
+        "varones": {
+          "pctOS": 60.80790200036481,
+          "pctSin": 36.68422844135388
+        }
+      },
+      "provBSASporCohorte": {
+        "ninez_0a14": {
+          "pctOS": 54.178892409113345,
+          "pctSin": 42.968654911496685
+        },
+        "jovenes_15a29": {
+          "pctOS": 49.83538327271698,
+          "pctSin": 47.524331186114686
+        },
+        "activos_30a64": {
+          "pctOS": 63.81130023221333,
+          "pctSin": 33.23898584641214
+        },
+        "mayores_65plus": {
+          "pctOS": 94.67971931073255,
+          "pctSin": 4.227565018711987
+        }
+      },
+      "quilmesEstimaciones": {
+        "pob65plus": 78460,
+        "estSinCobertura_0a14": {
+          "pop": 138670,
+          "estimadas": 59571
+        },
+        "estSinCobertura_15a29": {
+          "pop": 143972,
+          "estimadas": 68456
+        },
+        "estSinCobertura_30a64": {
+          "pop": 272246,
+          "estimadas": 90396
+        },
+        "estSinCobertura_65plus": {
+          "pop": 78460,
+          "estimadas": 3318
+        }
+      }
+    }
+  }
+}

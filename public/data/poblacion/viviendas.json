@@ -1,0 +1,1142 @@
+{
+  "meta": {
+    "id": "poblacion-viviendas",
+    "title": "Stock de Viviendas — Quilmes",
+    "category": "Población",
+    "subcategory": "Viviendas",
+    "source": "INDEC — Censo Nacional de Población, Hogares y Viviendas 2022",
+    "date": "2026-04-23"
+  },
+  "kpis": [
+    {
+      "id": "total-viv",
+      "label": "Total de viviendas",
+      "value": 226056,
+      "formatted": "226.056",
+      "unit": "viv",
+      "comparison": "225.987 particulares + 69 colectivas"
+    },
+    {
+      "id": "densidad-viv",
+      "label": "Densidad de viviendas",
+      "value": 2467.8602620087336,
+      "formatted": "2.468",
+      "unit": "viv/km²",
+      "comparison": "Superficie: 92 km²"
+    },
+    {
+      "id": "ocupadas",
+      "label": "Viviendas ocupadas",
+      "value": 93.51998123785881,
+      "formatted": "93,5%",
+      "status": "good",
+      "comparison": "211.343 de 225.987"
+    },
+    {
+      "id": "desocupadas",
+      "label": "Viviendas desocupadas",
+      "value": 6.480018762141185,
+      "formatted": "6,5%",
+      "status": "warning",
+      "comparison": "14.644 viv · vs prom. GBA: -0,2 pp"
+    },
+    {
+      "id": "casa",
+      "label": "% Casas",
+      "value": 83.06071173400585,
+      "formatted": "83,1%",
+      "comparison": "175.543 viviendas"
+    },
+    {
+      "id": "depto",
+      "label": "% Departamentos",
+      "value": 13.437397973909713,
+      "formatted": "13,4%",
+      "comparison": "28.399 viviendas · vs prom. GBA: -2,2 pp"
+    },
+    {
+      "id": "precaria",
+      "label": "% Vivienda precaria",
+      "value": 2.320871758231879,
+      "formatted": "2,32%",
+      "status": "warning",
+      "comparison": "Rancho + casilla: 4.905 viv"
+    },
+    {
+      "id": "multihogar",
+      "label": "% Viv. con 2+ hogares",
+      "value": 1.3674453376738287,
+      "formatted": "1,4%",
+      "status": "good",
+      "comparison": "2.890 viv"
+    }
+  ],
+  "charts": [
+    {
+      "id": "tipos-viv",
+      "type": "pie",
+      "title": "Composición por tipo de vivienda particular — Quilmes",
+      "sectionId": "tipos",
+      "data": [
+        {
+          "id": "Casa",
+          "label": "Casa",
+          "value": 175543
+        },
+        {
+          "id": "Rancho",
+          "label": "Rancho",
+          "value": 1051
+        },
+        {
+          "id": "Casilla",
+          "label": "Casilla",
+          "value": 3854
+        },
+        {
+          "id": "Departamento",
+          "label": "Departamento",
+          "value": 28399
+        },
+        {
+          "id": "Pieza en inquilinato",
+          "label": "Pieza en inquilinato",
+          "value": 1977
+        },
+        {
+          "id": "Local no construido para habitar",
+          "label": "Local no construido para habitar",
+          "value": 424
+        },
+        {
+          "id": "Vivienda móvil",
+          "label": "Vivienda móvil",
+          "value": 95
+        }
+      ]
+    },
+    {
+      "id": "ocupacion",
+      "type": "pie",
+      "title": "Condición de ocupación de viviendas particulares — Quilmes",
+      "sectionId": "ocupacion",
+      "data": [
+        {
+          "id": "Ocupadas",
+          "label": "Ocupadas",
+          "value": 211343
+        },
+        {
+          "id": "Desocupadas",
+          "label": "Desocupadas",
+          "value": 14644
+        }
+      ]
+    },
+    {
+      "id": "gba-total",
+      "type": "bar",
+      "title": "Total de viviendas por partido — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "La Matanza",
+          "value": 605680
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 245763
+        },
+        {
+          "partido": "Quilmes",
+          "value": 226056
+        },
+        {
+          "partido": "Moreno",
+          "value": 192083
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 191579
+        },
+        {
+          "partido": "Merlo",
+          "value": 187274
+        },
+        {
+          "partido": "Lanús",
+          "value": 181081
+        },
+        {
+          "partido": "General San Martín",
+          "value": 173717
+        },
+        {
+          "partido": "Tigre",
+          "value": 158930
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 149433
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 148989
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 145388
+        },
+        {
+          "partido": "Morón",
+          "value": 141287
+        },
+        {
+          "partido": "Vicente López",
+          "value": 125809
+        },
+        {
+          "partido": "San Isidro",
+          "value": 121350
+        },
+        {
+          "partido": "Berazategui",
+          "value": 121135
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 114379
+        },
+        {
+          "partido": "San Miguel",
+          "value": 113751
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 108547
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 99856
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 67423
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 65631
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 65385
+        },
+        {
+          "partido": "San Fernando",
+          "value": 63969
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-depto",
+      "type": "bar",
+      "title": "% de departamentos sobre total particular — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Vicente López",
+          "value": 35.52239857663784
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 31.90709046454768
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 31.32561730708685
+        },
+        {
+          "partido": "San Isidro",
+          "value": 24.994967333418735
+        },
+        {
+          "partido": "Morón",
+          "value": 23.77231088865804
+        },
+        {
+          "partido": "San Fernando",
+          "value": 23.684431812448494
+        },
+        {
+          "partido": "General San Martín",
+          "value": 22.560967956522283
+        },
+        {
+          "partido": "Lanús",
+          "value": 21.745272766789828
+        },
+        {
+          "partido": "San Miguel",
+          "value": 17.455816591207014
+        },
+        {
+          "partido": "La Matanza",
+          "value": 15.301802666065836
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 14.28213101071214
+        },
+        {
+          "partido": "Quilmes",
+          "value": 13.437397973909713
+        },
+        {
+          "partido": "Tigre",
+          "value": 12.747906642828053
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 11.260019236934916
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 10.85216559713536
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 9.474226804123711
+        },
+        {
+          "partido": "Berazategui",
+          "value": 9.363315511758746
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 8.260701142746466
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 7.851998764488807
+        },
+        {
+          "partido": "Merlo",
+          "value": 7.094127614036652
+        },
+        {
+          "partido": "Moreno",
+          "value": 6.293185091371669
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 6.288554944062658
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 5.683393594861399
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 4.603280187914441
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-precaria",
+      "type": "bar",
+      "title": "% de vivienda precaria (rancho/casilla) — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Florencio Varela",
+          "value": 4.912185368640319
+        },
+        {
+          "partido": "Moreno",
+          "value": 3.444159890611778
+        },
+        {
+          "partido": "La Matanza",
+          "value": 3.4351165193635658
+        },
+        {
+          "partido": "Merlo",
+          "value": 3.0131091987336696
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 2.842621655892074
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 2.764118084950309
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 2.5730227076145122
+        },
+        {
+          "partido": "Berazategui",
+          "value": 2.5229758535136457
+        },
+        {
+          "partido": "Tigre",
+          "value": 2.414695263800971
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 2.324230098779779
+        },
+        {
+          "partido": "Quilmes",
+          "value": 2.320871758231879
+        },
+        {
+          "partido": "San Miguel",
+          "value": 1.8584457480732224
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 1.6710402999062794
+        },
+        {
+          "partido": "San Fernando",
+          "value": 1.3538285598964026
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 1.295662816293522
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 1.0612375761462007
+        },
+        {
+          "partido": "General San Martín",
+          "value": 1.048661403486752
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 1.0232230401343307
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 0.9884089542048023
+        },
+        {
+          "partido": "San Isidro",
+          "value": 0.8628735611148729
+        },
+        {
+          "partido": "Lanús",
+          "value": 0.7818348668163926
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 0.7305327109728088
+        },
+        {
+          "partido": "Vicente López",
+          "value": 0.6852572797576056
+        },
+        {
+          "partido": "Morón",
+          "value": 0.5217678723203324
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "gba-desoc",
+      "type": "bar",
+      "title": "% de viviendas particulares desocupadas — 24 GBA",
+      "sectionId": "comparacion",
+      "data": [
+        {
+          "partido": "Morón",
+          "value": 10.032710743567595
+        },
+        {
+          "partido": "San Isidro",
+          "value": 9.894712541327594
+        },
+        {
+          "partido": "Vicente López",
+          "value": 9.70517826892641
+        },
+        {
+          "partido": "Tres de Febrero",
+          "value": 9.636860287619507
+        },
+        {
+          "partido": "Tigre",
+          "value": 8.830989017904905
+        },
+        {
+          "partido": "Lanús",
+          "value": 8.501541215074077
+        },
+        {
+          "partido": "General San Martín",
+          "value": 8.229860167246423
+        },
+        {
+          "partido": "Avellaneda",
+          "value": 8.207527695589349
+        },
+        {
+          "partido": "Ezeiza",
+          "value": 8.089424260855376
+        },
+        {
+          "partido": "Moreno",
+          "value": 7.076761249134281
+        },
+        {
+          "partido": "San Fernando",
+          "value": 7.0180925424947995
+        },
+        {
+          "partido": "Esteban Echeverría",
+          "value": 6.688354846608598
+        },
+        {
+          "partido": "Quilmes",
+          "value": 6.480018762141185
+        },
+        {
+          "partido": "La Matanza",
+          "value": 6.185049466854483
+        },
+        {
+          "partido": "Lomas de Zamora",
+          "value": 5.881179736407225
+        },
+        {
+          "partido": "Ituzaingó",
+          "value": 5.859936947139665
+        },
+        {
+          "partido": "Berazategui",
+          "value": 5.487392043859504
+        },
+        {
+          "partido": "San Miguel",
+          "value": 5.399201421259081
+        },
+        {
+          "partido": "Hurlingham",
+          "value": 4.930275089537453
+        },
+        {
+          "partido": "Merlo",
+          "value": 4.178082557586828
+        },
+        {
+          "partido": "Almirante Brown",
+          "value": 3.9091706522420164
+        },
+        {
+          "partido": "Florencio Varela",
+          "value": 3.6359486294702497
+        },
+        {
+          "partido": "José C. Paz",
+          "value": 3.632776114021294
+        },
+        {
+          "partido": "Malvinas Argentinas",
+          "value": 3.0546801570188533
+        }
+      ],
+      "config": {
+        "xAxis": "partido",
+        "layout": "horizontal"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rk-total",
+      "title": "Viviendas totales — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "La Matanza",
+          "value": 605680,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 245763,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 226056,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Moreno",
+          "value": 192083,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 191579,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Merlo",
+          "value": 187274,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Lanús",
+          "value": 181081,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 173717,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Tigre",
+          "value": 158930,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 149433,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 148989,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 145388,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Morón",
+          "value": 141287,
+          "municipioId": "06568"
+        },
+        {
+          "name": "Vicente López",
+          "value": 125809,
+          "municipioId": "06861"
+        },
+        {
+          "name": "San Isidro",
+          "value": 121350,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Berazategui",
+          "value": 121135,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 114379,
+          "municipioId": "06260"
+        },
+        {
+          "name": "San Miguel",
+          "value": 113751,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 108547,
+          "municipioId": "06515"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 99856,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 67423,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 65631,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 65385,
+          "municipioId": "06410"
+        },
+        {
+          "name": "San Fernando",
+          "value": 63969,
+          "municipioId": "06749"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-depto",
+      "title": "% Departamentos — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Vicente López",
+          "value": 35.52239857663784,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 31.90709046454768,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 31.32561730708685,
+          "municipioId": "06035"
+        },
+        {
+          "name": "San Isidro",
+          "value": 24.994967333418735,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Morón",
+          "value": 23.77231088865804,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Fernando",
+          "value": 23.684431812448494,
+          "municipioId": "06749"
+        },
+        {
+          "name": "General San Martín",
+          "value": 22.560967956522283,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Lanús",
+          "value": 21.745272766789828,
+          "municipioId": "06434"
+        },
+        {
+          "name": "San Miguel",
+          "value": 17.455816591207014,
+          "municipioId": "06760"
+        },
+        {
+          "name": "La Matanza",
+          "value": 15.301802666065836,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 14.28213101071214,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Quilmes",
+          "value": 13.437397973909713,
+          "municipioId": "06658"
+        },
+        {
+          "name": "Tigre",
+          "value": 12.747906642828053,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 11.260019236934916,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 10.85216559713536,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 9.474226804123711,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Berazategui",
+          "value": 9.363315511758746,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 8.260701142746466,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 7.851998764488807,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Merlo",
+          "value": 7.094127614036652,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Moreno",
+          "value": 6.293185091371669,
+          "municipioId": "06560"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 6.288554944062658,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 5.683393594861399,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 4.603280187914441,
+          "municipioId": "06412"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-precaria",
+      "title": "% Vivienda precaria — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Florencio Varela",
+          "value": 4.912185368640319,
+          "municipioId": "06274"
+        },
+        {
+          "name": "Moreno",
+          "value": 3.444159890611778,
+          "municipioId": "06560"
+        },
+        {
+          "name": "La Matanza",
+          "value": 3.4351165193635658,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Merlo",
+          "value": 3.0131091987336696,
+          "municipioId": "06539"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 2.842621655892074,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 2.764118084950309,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 2.5730227076145122,
+          "municipioId": "06515"
+        },
+        {
+          "name": "Berazategui",
+          "value": 2.5229758535136457,
+          "municipioId": "06091"
+        },
+        {
+          "name": "Tigre",
+          "value": 2.414695263800971,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 2.324230098779779,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Quilmes",
+          "value": 2.320871758231879,
+          "municipioId": "06658"
+        },
+        {
+          "name": "San Miguel",
+          "value": 1.8584457480732224,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 1.6710402999062794,
+          "municipioId": "06260"
+        },
+        {
+          "name": "San Fernando",
+          "value": 1.3538285598964026,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 1.295662816293522,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 1.0612375761462007,
+          "municipioId": "06408"
+        },
+        {
+          "name": "General San Martín",
+          "value": 1.048661403486752,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 1.0232230401343307,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 0.9884089542048023,
+          "municipioId": "06410"
+        },
+        {
+          "name": "San Isidro",
+          "value": 0.8628735611148729,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Lanús",
+          "value": 0.7818348668163926,
+          "municipioId": "06434"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 0.7305327109728088,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Vicente López",
+          "value": 0.6852572797576056,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Morón",
+          "value": 0.5217678723203324,
+          "municipioId": "06568"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "id": "rk-desoc",
+      "title": "% Viviendas desocupadas — 24 GBA",
+      "sectionId": "comparacion",
+      "items": [
+        {
+          "name": "Morón",
+          "value": 10.032710743567595,
+          "municipioId": "06568"
+        },
+        {
+          "name": "San Isidro",
+          "value": 9.894712541327594,
+          "municipioId": "06756"
+        },
+        {
+          "name": "Vicente López",
+          "value": 9.70517826892641,
+          "municipioId": "06861"
+        },
+        {
+          "name": "Tres de Febrero",
+          "value": 9.636860287619507,
+          "municipioId": "06840"
+        },
+        {
+          "name": "Tigre",
+          "value": 8.830989017904905,
+          "municipioId": "06805"
+        },
+        {
+          "name": "Lanús",
+          "value": 8.501541215074077,
+          "municipioId": "06434"
+        },
+        {
+          "name": "General San Martín",
+          "value": 8.229860167246423,
+          "municipioId": "06371"
+        },
+        {
+          "name": "Avellaneda",
+          "value": 8.207527695589349,
+          "municipioId": "06035"
+        },
+        {
+          "name": "Ezeiza",
+          "value": 8.089424260855376,
+          "municipioId": "06270"
+        },
+        {
+          "name": "Moreno",
+          "value": 7.076761249134281,
+          "municipioId": "06560"
+        },
+        {
+          "name": "San Fernando",
+          "value": 7.0180925424947995,
+          "municipioId": "06749"
+        },
+        {
+          "name": "Esteban Echeverría",
+          "value": 6.688354846608598,
+          "municipioId": "06260"
+        },
+        {
+          "name": "Quilmes",
+          "value": 6.480018762141185,
+          "municipioId": "06658"
+        },
+        {
+          "name": "La Matanza",
+          "value": 6.185049466854483,
+          "municipioId": "06427"
+        },
+        {
+          "name": "Lomas de Zamora",
+          "value": 5.881179736407225,
+          "municipioId": "06490"
+        },
+        {
+          "name": "Ituzaingó",
+          "value": 5.859936947139665,
+          "municipioId": "06410"
+        },
+        {
+          "name": "Berazategui",
+          "value": 5.487392043859504,
+          "municipioId": "06091"
+        },
+        {
+          "name": "San Miguel",
+          "value": 5.399201421259081,
+          "municipioId": "06760"
+        },
+        {
+          "name": "Hurlingham",
+          "value": 4.930275089537453,
+          "municipioId": "06408"
+        },
+        {
+          "name": "Merlo",
+          "value": 4.178082557586828,
+          "municipioId": "06539"
+        },
+        {
+          "name": "Almirante Brown",
+          "value": 3.9091706522420164,
+          "municipioId": "06028"
+        },
+        {
+          "name": "Florencio Varela",
+          "value": 3.6359486294702497,
+          "municipioId": "06274"
+        },
+        {
+          "name": "José C. Paz",
+          "value": 3.632776114021294,
+          "municipioId": "06412"
+        },
+        {
+          "name": "Malvinas Argentinas",
+          "value": 3.0546801570188533,
+          "municipioId": "06515"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "06658",
+      "municipioNombre": "Quilmes",
+      "value": 226056,
+      "formatted": "226.056",
+      "caption": "Viviendas totales censadas en Quilmes",
+      "label": "226.056 · Viviendas totales censadas en Quilmes"
+    }
+  ],
+  "extras": {
+    "viviendas": {
+      "partido": {
+        "totalViv": 226056,
+        "particulares": 225987,
+        "colectivas": 69,
+        "ocupadas": 211343,
+        "desocupadas": 14644,
+        "pctOcupadas": 93.51998123785881,
+        "pctDesocupadas": 6.480018762141185,
+        "pctColectivas": 0.030523410128463744,
+        "densidadViv": 2467.8602620087336,
+        "tipos": {
+          "casa": 175543,
+          "depto": 28399,
+          "rancho": 1051,
+          "casilla": 3854,
+          "pieza": 1977,
+          "pctCasa": 83.06071173400585,
+          "pctDepto": 13.437397973909713,
+          "pctPieza": 0.9354461704433078,
+          "pctPrecaria": 2.320871758231879
+        },
+        "multihogar": {
+          "vivOcup": 211343,
+          "hogTotal": 214681,
+          "unHog": 208453,
+          "dosHog": 2519,
+          "tresOMas": 371,
+          "pctUnHogar": 98.63255466232617,
+          "pctMultiHogar": 1.3674453376738287
+        },
+        "superficie": 91.6
+      },
+      "gba": {
+        "posiciones": {
+          "total": 3,
+          "depto": 12,
+          "precaria": 11,
+          "desoc": 13
+        },
+        "promPond": {
+          "desoc": 6.651678922770548,
+          "depto": 15.5993209515331,
+          "precaria": 2.1892936092414867
+        }
+      }
+    }
+  }
+}

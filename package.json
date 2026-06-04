@@ -1,0 +1,56 @@
+{
+  "name": "dashboard-quilmes",
+  "version": "0.1.0",
+  "description": "Dashboard interactivo de datos abiertos del Municipio de Quilmes — Inteligencia Estratégica Municipal",
+  "type": "module",
+  "license": "MIT",
+  "author": "Laboratorio Colossus",
+  "keywords": [
+    "dashboard",
+    "quilmes",
+    "datos-abiertos",
+    "open-data",
+    "argentina",
+    "municipio",
+    "react",
+    "vite",
+    "nivo",
+    "data-visualization"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build-data": "node scripts/build-data.cjs"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.88.0",
+    "@nivo/core": "^0.88.0",
+    "@nivo/geo": "^0.88.0",
+    "@nivo/heatmap": "^0.88.0",
+    "@nivo/line": "^0.88.0",
+    "@nivo/pie": "^0.88.0",
+    "@nivo/tooltip": "^0.88.0",
+    "@types/d3-geo": "^3.1.0",
+    "@types/topojson-client": "^3.1.5",
+    "@vercel/analytics": "^2.0.1",
+    "d3-geo": "^3.1.1",
+    "papaparse": "^5.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.1.0",
+    "remark-gfm": "^4.0.0",
+    "topojson-client": "^3.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.1.0"
+  }
+}

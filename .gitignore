@@ -1,0 +1,26 @@
+node_modules
+dist
+.vercel
+.DS_Store
+*.log
+npm-debug.log*
+.env
+.env.*
+!.env.example
+tsconfig.tsbuildinfo
+
+# Claude Code — settings locales del usuario (no compartir)
+.claude/settings.local.json
+
+# Piezas promocionales (HyperFrames) — proyecto de video aparte, con
+# assets pesados y contenido compilado heredado. No forma parte del SPA.
+promo/
+
+# Datos raw (se commitean los JSON procesados en public/data/)
+/1-*/
+/2-*/
+/3-*/
+/4-*/
+/5-*/
+/6-*/
+/7-*/
