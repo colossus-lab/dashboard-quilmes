@@ -3481,7 +3481,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  animation: ticker-slide 4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  /* Solo anima la ENTRADA y descansa visible: si el intervalo se frena
+     (p. ej. Safari throttlea timers en segundo plano) el dato no desaparece. */
+  animation: ticker-slide 0.45s ease-out both;
 }
 .report-card-ticker-value {
   font-weight: 600;
@@ -3498,12 +3500,46 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.06em;
 }
 @keyframes ticker-slide {
-  0%   { transform: translateX(100%); opacity: 0; }
-  20%  { transform: translateX(0);    opacity: 1; }
-  80%  { transform: translateX(0);    opacity: 1; }
-  100% { transform: translateX(-100%); opacity: 0; }
+  0%   { transform: translateX(40%); opacity: 0; }
+  100% { transform: translateX(0);   opacity: 1; }
 }
 .report-card-stat-value { display: none !important; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Mobile (≤640px): report-card compacta — override FINAL.
+   Va después de la capa editorial (que usa !important sobre .report-card
+   y .report-card-stat) para que gane en la cascada, y le da ancho definido
+   al stat para que el ticker (hijo position:absolute) no colapse en Safari.
+   ═══════════════════════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .report-grid { grid-auto-rows: auto !important; }
+
+  /* Cards 2..N: fila compacta. La primera (INFORME DESTACADO) queda como está. */
+  .report-grid > .report-card:not(:first-child) {
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 1rem 1.1rem !important;
+    gap: 0.9rem !important;
+  }
+  .report-card:not(:first-child) .report-card-header { margin-bottom: 0 !important; flex-shrink: 0; }
+  .report-card:not(:first-child) .report-card-body { flex: 1 1 auto !important; min-width: 0; }
+  .report-card:not(:first-child) .report-card-arrow { display: none !important; }
+  .report-card:not(:first-child) .report-card-desc { display: none !important; }
+
+  .report-card:not(:first-child) .report-card-stat {
+    flex: 0 0 auto !important;
+    width: 8rem !important;            /* ancho definido → el ticker resuelve su 100% en Safari */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0.9rem !important;
+    border-top: none !important;
+    border-left: 1px solid var(--border-glass) !important;
+  }
+
+  /* Refuerzo anti-colapso del ticker en Safari: el contenedor del dato
+     siempre tiene ancho (el item interno es position:absolute). */
+  .report-card .report-card-ticker { width: 100%; min-width: 6rem; }
+}
 
 /* ═══════════════════════════════════════════════════════════════
    PersistentSidebar — sidebar fija ≥1024px en rutas de informe
